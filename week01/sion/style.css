@@ -17,8 +17,12 @@
 }
 
 /* post */
+.postProfile {
+    display: flex;
+}
 .postProfile > img {
     width: 30px;
+    height: 30px;
     border-radius: 50px;
 }
 .postImg {
@@ -33,7 +37,7 @@
 
 /* my profile */
 #myProfile {
-
+    display: flex;
 }
 #myName {
     font-size: 16px;
@@ -43,6 +47,11 @@
     width: 40px;
     height: 40px;
     border-radius: 50px;
+}
+#changeButton {
+    font-size: 14px;
+    color: rgb(98, 186, 241);
+    font-weight: 600;
 }
 
 /* recommend */
@@ -66,7 +75,6 @@
 }
 .recommendProfile {
     display: flex;
-    flex-direction : row;
 }
 
 .recommendProfile > img {
