@@ -1,13 +1,34 @@
 /* story */
+#story{
+    display: flex;
+    /* align-items: center; */
+}
 .storyProfile {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .storyProfile > p { 
     font-size: 15px;
 }
 .storyProfile > img {
     border-radius: 50px;
-    width: 70px;
+    width: 60px;
+}
+
+/* post */
+.postProfile > img {
+    width: 30px;
+    border-radius: 50px;
+}
+.postImg {
+    width: 400px;
+}
+.postBold {
+    font-weight: 600;
+}
+.postComment{
+    color: gray;
 }
 
 /* my profile */
