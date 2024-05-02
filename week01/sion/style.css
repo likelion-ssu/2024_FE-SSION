@@ -1,3 +1,4 @@
+/* story */
 .storyProfile {
     
 }
@@ -8,3 +9,33 @@
     border-radius: 50px;
     width: 70px;
 }
+
+/* my profile */
+#myProfile {
+
+}
+
+#myProfile > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+/* recommend */
+#recommend {
+    
+}
+#recommend > ul {
+    list-style-type: none;
+}
+.recommendProfile {
+    display: flex;
+    flex-direction : row;
+}
+
+.recommendProfile > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+/* footer */
