@@ -1,5 +1,5 @@
 /* story */
-#story{
+#story {
     display: flex;
     /* align-items: center; */
 }
@@ -27,7 +27,7 @@
 .postBold {
     font-weight: 600;
 }
-.postComment{
+.postComment {
     color: gray;
 }
 
@@ -48,6 +48,18 @@
 }
 #recommend > ul {
     list-style-type: none;
+}
+#recommendMent {
+    display: flex;
+}
+#recommendMentForYou {
+    font-size: 16px;
+    font-weight: 600;
+    color: gray;
+}
+#recommendMentAll {
+    font-size: 15px;
+    font-weight: 500;
 }
 .recommendProfile {
     display: flex;
