@@ -35,7 +35,10 @@
 #myProfile {
 
 }
-
+#myName {
+    font-size: 16px;
+    color: gray;
+}
 #myProfile > img {
     width: 40px;
     height: 40px;
@@ -70,5 +73,15 @@
     width: 40px;
     height: 40px;
     border-radius: 50px;
+}
+
+.recommendM {
+    font-size: 14px;
+    color: gray;
+}
+.followButton {
+    font-size: 14px;
+    color: rgb(98, 186, 241);
+    font-weight: 600;
 }
 /* footer */
