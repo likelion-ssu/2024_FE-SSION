@@ -1,0 +1,10 @@
+.storyProfile {
+    
+}
+.storyProfile > p { 
+    font-size: 15px;
+}
+.storyProfile > img {
+    border-radius: 50px;
+    width: 70px;
+}
