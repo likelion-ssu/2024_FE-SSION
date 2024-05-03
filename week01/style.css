@@ -1,6 +1,7 @@
 /*reset css*/
 @import url('./reset.css');
 
+/*header css*/
 .img_header_logo {
     width: 12rem;
     height: 5rem;
@@ -30,4 +31,14 @@
 
 .header_ul_first {
     margin-bottom: 12rem;
+}
+
+vr { 
+    display: block;
+    width:0.01rem;
+    background-color:#000;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left: 30rem
 }
