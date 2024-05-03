@@ -1,2 +1,33 @@
 /*reset css*/
 @import url('./reset.css');
+
+.img_header_logo {
+    width: 12rem;
+    height: 5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.header_btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: none;
+    gap: 2rem;
+    padding-left: 2rem;
+    width: 30rem;
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-house, .fa-magnifying-glass, .fa-compass, .fa-paper-plane, .fa-heart, .fa-square-plus, .fa-user, .fa-ear-listen, .fa-bars{
+    font-size: 2rem;
+}
+
+.header_home_span{
+    font-size: 2rem;
+}
+
+.header_ul_first {
+    margin-bottom: 12rem;
+}
