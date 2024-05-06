@@ -22,17 +22,18 @@
 }
 
 .fa-house, .fa-magnifying-glass, .fa-compass, .fa-paper-plane, .fa-heart, .fa-square-plus, .fa-user, .fa-ear-listen, .fa-bars{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .header_home_span{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .header_ul_first {
-    margin-bottom: 12rem;
+    margin-bottom: 5rem;
 }
 
+/*세로 수직선 긋기*/
 vr { 
     display: block;
     width:0.01rem;
@@ -40,5 +41,22 @@ vr {
     position:absolute;
     top:0;
     bottom:0;
-    left: 30rem
+    left: 20rem
+}
+
+.story_section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 38rem;
+    margin-top: 2rem;
+}
+
+.story_section img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.story_section p {
+    text-align: center;
 }
