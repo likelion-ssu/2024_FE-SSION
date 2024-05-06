@@ -13,26 +13,44 @@ header > ul {
     list-style-type: none;
 }
 
-header > ul> li > img {
+header > ul :hover {
+    background-color: rgb(182, 182, 182);
+    border-radius: 10px;
+}
+
+.menu {
+    
+    padding: 10px;
+    margin: 10px;
+}
+
+.menu> img {
     width: 20px;
+}
+
+.menuLine {
+    border-left : thin solid black ;
+    height : 50px;
 }
 
 /* story */
 #story {
     display: flex;
-    /* align-items: center; */
+    position: static;
+    align-items: center;
 }
 .storyProfile {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 7px;
 }
 .storyProfile > p { 
     font-size: 15px;
 }
 .storyProfile > img {
     border-radius: 50px;
-    width: 60px;
+    width: 65px;
 }
 
 /* post */
@@ -45,13 +63,17 @@ header > ul> li > img {
     border-radius: 50px;
 }
 .postImg {
-    width: 400px;
+    width: 500px;
 }
 .postBold {
     font-weight: 600;
 }
 .postComment {
     color: gray;
+}
+
+.postIcon > img {
+    width: 25px;
 }
 
 /* my profile */
