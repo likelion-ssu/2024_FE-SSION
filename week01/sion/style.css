@@ -1,3 +1,22 @@
+/* header */
+#logoImg {
+    width: 100px;
+    height: 30px;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    
+}
+header > ul {
+    list-style-type: none;
+}
+
+header > ul> li > img {
+    width: 20px;
+}
+
 /* story */
 #story {
     display: flex;
