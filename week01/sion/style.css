@@ -1,9 +1,8 @@
 #layout {
     display: grid;
-    grid-template-columns: 15vw 1vw 54vw 30vw;
+    grid-template-columns: 15vw 53vw 22vw;
     grid-template-rows: 15vh 40vh 15vh 30vh;
 
-    margin-top: 0px;
 }
 
 /* header */
@@ -15,6 +14,14 @@
     grid-row-end: 5;
 
     background-color: red;
+
+    /* position: fixed; */
+    border-right : thin solid black ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #logoImg {
@@ -46,21 +53,11 @@ header > ul :hover {
     width: 20px;
 }
 
-.menuLine {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 5;
-
-    background-color: orange;
-    border-left : thin solid black ;
-    height : 500px;
-}
 
 /* story */
 #storySection {
-    grid-column-start: 3;
-    grid-column-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
 
@@ -68,12 +65,15 @@ header > ul :hover {
 
     display: flex;
     position: static;
-    align-items: center;
+    /* align-items: center; */
+
+    justify-content: center;
 }
 .storyProfile {
     display: flex;
     flex-direction: column;
     align-items: center;
+ 
     margin: 7px;
 }
 .storyProfile > p { 
@@ -81,17 +81,23 @@ header > ul :hover {
 }
 .storyProfile > img {
     border-radius: 50px;
-    width: 65px;
+    width: 60px;
 }
 
 /* post */
 #postSection {
-    grid-column-start: 3;
-    grid-column-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 5;
 
     background-color: green;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 10px;
 }
 .postProfile {
     display: flex;
@@ -103,6 +109,7 @@ header > ul :hover {
 }
 .postImg {
     width: 500px;
+    
 }
 .postBold {
     font-weight: 600;
@@ -145,12 +152,16 @@ header > ul :hover {
 
 /* recommend */
 #recommendSection {
-    grid-column-start: 4;
-    grid-column-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 3;
 
     background-color: blue;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #recommendSection > ul {
@@ -189,12 +200,13 @@ header > ul :hover {
 }
 /* footer */
 #footerSection {
-    grid-column-start: 4;
-    grid-column-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4;
 
     background-color: purple;
+    padding: 20px;
 }
 footer > p {
     color: rgb(186, 186, 186);
