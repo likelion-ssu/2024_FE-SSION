@@ -53,6 +53,9 @@ header > ul :hover {
     width: 20px;
 }
 
+#menuProfile {
+    border-radius: 50px;
+}
 
 /* story */
 #storySection {
