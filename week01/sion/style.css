@@ -1,4 +1,22 @@
+#layout {
+    display: grid;
+    grid-template-columns: 15vw 1vw 54vw 30vw;
+    grid-template-rows: 15vh 40vh 15vh 30vh;
+
+    margin-top: 0px;
+}
+
 /* header */
+
+#headerSection {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 5;
+
+    background-color: red;
+}
+
 #logoImg {
     width: 100px;
     height: 30px;
@@ -29,12 +47,25 @@ header > ul :hover {
 }
 
 .menuLine {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+
+    background-color: orange;
     border-left : thin solid black ;
     height : 500px;
 }
 
 /* story */
-#story {
+#storySection {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    background-color: yellow;
+
     display: flex;
     position: static;
     align-items: center;
@@ -54,6 +85,14 @@ header > ul :hover {
 }
 
 /* post */
+#postSection {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 5;
+
+    background-color: green;
+}
 .postProfile {
     display: flex;
 }
@@ -105,10 +144,16 @@ header > ul :hover {
 }
 
 /* recommend */
-#recommend {
-    
+#recommendSection {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    background-color: blue;
 }
-#recommend > ul {
+
+#recommendSection > ul {
     list-style-type: none;
 }
 #recommendMent {
@@ -143,6 +188,14 @@ header > ul :hover {
     font-weight: 600;
 }
 /* footer */
+#footerSection {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    background-color: purple;
+}
 footer > p {
     color: rgb(186, 186, 186);
     font-size: 12px;

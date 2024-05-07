@@ -7,27 +7,28 @@
     <title>Instagram</title>
 </head>
 <body>
-    <header id="menu">
-        <img id="logoImg" src="./choonsikProfile.png" alt="로고">
-        <ul>
-            <li><div class="menuList"><img src="./choonsikProfile.png" alt="홈 이미지"> &nbsp;홈</div></li>
-            <li><div class="menuList"><img src="./choonsikProfile.png" alt="검색 이미지"> &nbsp;검색</div></li>
-            <li><div class="menuList"><img src="./choonsikProfile.png" alt="탐색 탭 이미지"> &nbsp;탐색 탭</div></li>
-            <li><div class="menuList"><img src="./choonsikProfile.png" alt="릴스 이미지"> &nbsp;릴스</div></li>
-            <li><div class="menuList"><img src="./choonsikProfile.png" alt="메시지 이미지"> &nbsp;메시지</div></li>
-            <li><div class="menuList"><img src="./choonsikProfile.png" alt="알림 이미지"> &nbsp;알림</div></li>
-            <li><div class="menuList"><img src="./choonsikProfile.png" alt="만들기 이미지"> &nbsp;만들기</div></li>
-            <li><div class="menuList"><img src="./choonsikProfile.png" alt="프로필 이미지"> &nbsp;프로필</div></li>
-        </ul>
-        <ul>
-            <li><div class="menuList"><img src="./choonsikProfile.png" alt="Threads 이미지"> &nbsp;Threads</div></li>
-            <li><div class="menuList"><img src="./choonsikProfile.png" alt="더보기 이미지"> &nbsp;더보기</div></li>
-        </ul>
-    </header>
-    <div class='menuLine'></div>
+    <div id="layout"> 
+        <header id="headerSection">
+            <img id="logoImg" src="./choonsikProfile.png" alt="로고">
+            <ul>
+                <li><div class="menuList"><img src="./choonsikProfile.png" alt="홈 이미지"> &nbsp;홈</div></li>
+                <li><div class="menuList"><img src="./choonsikProfile.png" alt="검색 이미지"> &nbsp;검색</div></li>
+                <li><div class="menuList"><img src="./choonsikProfile.png" alt="탐색 탭 이미지"> &nbsp;탐색 탭</div></li>
+                <li><div class="menuList"><img src="./choonsikProfile.png" alt="릴스 이미지"> &nbsp;릴스</div></li>
+                <li><div class="menuList"><img src="./choonsikProfile.png" alt="메시지 이미지"> &nbsp;메시지</div></li>
+                <li><div class="menuList"><img src="./choonsikProfile.png" alt="알림 이미지"> &nbsp;알림</div></li>
+                <li><div class="menuList"><img src="./choonsikProfile.png" alt="만들기 이미지"> &nbsp;만들기</div></li>
+                <li><div class="menuList"><img src="./choonsikProfile.png" alt="프로필 이미지"> &nbsp;프로필</div></li>
+            </ul>
+            <ul>
+                <li><div class="menuList"><img src="./choonsikProfile.png" alt="Threads 이미지"> &nbsp;Threads</div></li>
+                <li><div class="menuList"><img src="./choonsikProfile.png" alt="더보기 이미지"> &nbsp;더보기</div></li>
+            </ul>
+        </header>
+        <div class='menuLine'></div>
 
-    <main>
-        <section id="story">
+        
+        <section id="storySection">
             <div class="storyProfile">
                 <img src="choonsikProfile.png" alt="기본프사">
                 <p>choonsik</p>
@@ -62,7 +63,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="postSection">
             <article class="post">
                 <div class="postProfile">
                     <img src="./choonsikProfile.png" alt="게시물프사사진">
@@ -81,7 +82,7 @@
                 <div class="postLine"></div>
         </section>
 
-        <aside id="recommend">
+        <aside id="recommendSection">
             <div id="myProfile">
                 <img src="./choonsikProfile.png" alt="내프로필사진">
                 <p><span class="postBold">xioniya</span><br><span id="myName">이시온</span></p>
@@ -92,7 +93,7 @@
                 <p id="recommendMentAll">모두보기</p>
             </div>
             <ul>
-                <li><div class="recommendProfile">
+            <li><div class="recommendProfile">
                     <img src="./choonsikProfile.png" alt="추천친구프로필사진">
                     <p><span class="postBold">아이디</span><br><span class="recommendM">회원님을 위한 추천</span></p>
                     <p class="followButton">팔로우</p>
@@ -119,13 +120,14 @@
                 </div></li>
             </ul>
         </aside>
-    </main>
+        
 
-    <footer id="footerSection">
-        <p>소개 . 도움말 . 홍보 센터 . API . 채용 정보 . <br>
-            개인정보처리방침 . 약관 . 위치 . 언어 . Meta Verified</p>
-        <br>
-        <p>© 2024 INSTAGRAM FROM META</p>
-    </footer>
+        <footer id="footerSection">
+            <p>소개 . 도움말 . 홍보 센터 . API . 채용 정보 . <br>
+                개인정보처리방침 . 약관 . 위치 . 언어 . Meta Verified</p>
+            <br>
+            <p>© 2024 INSTAGRAM FROM META</p>
+        </footer>
+    </div>
 </body>
 </html>
