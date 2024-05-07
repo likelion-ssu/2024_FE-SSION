@@ -1,8 +1,7 @@
 #layout {
     display: grid;
     grid-template-columns: 15vw 53vw 22vw;
-    grid-template-rows: 15vh 40vh 15vh 30vh;
-
+    grid-template-rows: 15vh 50vh 20vh 15vh;
 }
 
 /* header */
@@ -15,18 +14,20 @@
 
     background-color: red;
 
-    /* position: fixed; */
+    position: fixed;
+    width: 15vw;
+    height: 100vh;
     border-right : thin solid black ;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 #logoImg {
-    width: 100px;
-    height: 30px;
+    width: 120px;
+    
 }
 header {
     display: flex;
@@ -44,15 +45,23 @@ header > ul :hover {
 }
 
 .menuList {
-    
     padding: 10px;
     margin: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .menuList> img {
-    width: 20px;
+    width: 25px;
+    margin-right: 10px;
 }
 
+.menuList> i {
+    font-size: 23px;
+    margin-right: 10px;
+}
 #menuProfile {
     border-radius: 50px;
 }
@@ -80,7 +89,7 @@ header > ul :hover {
     margin: 7px;
 }
 .storyProfile > p { 
-    font-size: 15px;
+    font-size: 13px;
 }
 .storyProfile > img {
     border-radius: 50px;
@@ -104,14 +113,18 @@ header > ul :hover {
 }
 .postProfile {
     display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .postProfile > img {
     width: 30px;
     height: 30px;
     border-radius: 50px;
+    margin-right: 10px;
+
 }
 .postImg {
-    width: 500px;
+    width: 450px;
     
 }
 .postBold {
@@ -125,8 +138,9 @@ header > ul :hover {
     color: gray;
 }
 
-.postIcon > img {
-    width: 25px;
+.postIcon > i {
+    font-size: 23px;
+    margin-right: 10px;
 }
 
 .postLine {
@@ -137,6 +151,9 @@ header > ul :hover {
 /* my profile */
 #myProfile {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
 }
 #myName {
     font-size: 16px;
@@ -148,9 +165,10 @@ header > ul :hover {
     border-radius: 50px;
 }
 #changeButton {
-    font-size: 14px;
+    font-size: 13px;
     color: rgb(98, 186, 241);
     font-weight: 600;
+    margin-left: 20px;
 }
 
 /* recommend */
@@ -172,11 +190,16 @@ header > ul :hover {
 }
 #recommendMent {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin-top : 5px;
+    margin-bottom: 0px;
 }
 #recommendMentForYou {
     font-size: 16px;
     font-weight: 600;
     color: gray;
+
 }
 #recommendMentAll {
     font-size: 15px;
@@ -184,22 +207,33 @@ header > ul :hover {
 }
 .recommendProfile {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
 }
-
-.recommendProfile > img {
+.profileGap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profileGap > img {
     width: 40px;
     height: 40px;
     border-radius: 50px;
 }
 
 .recommendM {
-    font-size: 14px;
+    font-size: 13px;
     color: gray;
 }
 .followButton {
-    font-size: 14px;
+    font-size: 13px;
     color: rgb(98, 186, 241);
     font-weight: 600;
+    margin-right: 10px;
+}
+.profileName {
+    margin-left: 10px;
 }
 /* footer */
 #footerSection {
