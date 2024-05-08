@@ -12,7 +12,7 @@
     grid-row-start: 1;
     grid-row-end: 5;
 
-    background-color: red;
+    /* background-color: red; */
 
     position: fixed;
     width: 16vw;
@@ -60,6 +60,7 @@
 }
 #menuProfile {
     border-radius: 50px;
+    border: thin solid rgb(180, 180, 180);
 }
 
 /* story */
@@ -69,7 +70,7 @@
     grid-row-start: 1;
     grid-row-end: 2;
 
-    background-color: yellow;
+    /* background-color: yellow; */
 
     display: flex;
     position: static;
@@ -90,6 +91,7 @@
 .storyProfile > img {
     border-radius: 50px;
     width: 60px;
+    border: thin solid rgb(180, 180, 180);
 }
 
 /* post */
@@ -99,7 +101,7 @@
     grid-row-start: 2;
     grid-row-end: 5;
 
-    background-color: green;
+    /* background-color: green; */
     
     display: flex;
     flex-direction: column;
@@ -124,7 +126,7 @@
     height: 30px;
     border-radius: 50px;
     margin-right: 10px;
-
+    border: thin solid rgb(180, 180, 180);
 }
 
 .postImg {
@@ -138,6 +140,8 @@
 }
 .postComment {
     color: gray;
+    border-style: none;
+    width: 400px;
 }
 
 .postTime {
@@ -159,7 +163,13 @@
     border-bottom : thin solid rgb(180, 180, 180);
     width : 450px;
 }
-
+.postReaction {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
 /* my profile */
 #myProfile {
     display: flex;
@@ -169,13 +179,14 @@
     width: 19vw;
 }
 #myName {
-    font-size: 16px;
+    font-size: 14px;
     color: gray;
 }
 #myProfile > img {
     width: 40px;
     height: 40px;
     border-radius: 50px;
+    border: thin solid rgb(180, 180, 180);
 }
 #changeButton {
     font-size: 13px;
@@ -191,7 +202,7 @@
     grid-row-start: 1;
     grid-row-end: 3;
 
-    background-color: blue;
+    /* background-color: blue; */
 
     display: flex;
     flex-direction: column;
@@ -209,13 +220,13 @@
     height: 30px;
 }
 #recommendMentForYou {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     color: gray;
 
 }
 #recommendMentAll {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 500;
 }
 /* 추천친구 목록 위치 수정 */
@@ -230,13 +241,14 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 60px;
 }
 .profileGap > img {
     width: 40px;
     height: 40px;
     border-radius: 50px;
+    border: thin solid rgb(180, 180, 180);
 }
 
 .recommendM {
@@ -259,7 +271,7 @@
     grid-row-start: 3;
     grid-row-end: 4;
 
-    background-color: purple;
+    /* background-color: purple; */
     padding: 10px;
 }
 footer > p {
