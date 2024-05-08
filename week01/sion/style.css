@@ -132,7 +132,7 @@
 .postImg {
     width: 450px;
     border: thin solid rgb(180, 180, 180);
-    border-radius: 2px;
+    border-radius: 3px;
     margin: 0px 5px 5px 0px;
 }
 .postBold {
