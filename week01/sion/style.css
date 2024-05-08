@@ -1,7 +1,7 @@
 #layout {
     display: grid;
-    grid-template-columns: 15vw 53vw 22vw;
-    grid-template-rows: 15vh 50vh 20vh 15vh;
+    grid-template-columns: 16vw 7vw 45vw 3vw 20vw 9vw;
+    grid-template-rows: 15vh 40vh 20vh 25vh;
 }
 
 /* header */
@@ -15,35 +15,31 @@
     background-color: red;
 
     position: fixed;
-    width: 15vw;
+    width: 16vw;
     height: 100vh;
-    border-right : thin solid black ;
+    border-right : thin solid rgb(180, 180, 180);
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    align-items:flex-start;
+
 }
 
 #logoImg {
     width: 120px;
     
 }
-header {
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    
-}
-header > ul {
+#headerSection > ul {
     list-style-type: none;
 }
 
-header > ul :hover {
-    background-color: rgb(182, 182, 182);
+#headerSection > ul :hover {
+    background-color: rgb(180, 180, 180);
     border-radius: 10px;
 }
-
+#headerSection > ul > img :hover {
+    
+}
 .menuList {
     padding: 10px;
     margin: 10px;
@@ -68,8 +64,8 @@ header > ul :hover {
 
 /* story */
 #storySection {
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
 
@@ -98,8 +94,8 @@ header > ul :hover {
 
 /* post */
 #postSection {
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 5;
 
@@ -110,6 +106,13 @@ header > ul :hover {
     align-items: center;
 
     padding-top: 10px;
+}
+.postTop {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 .postProfile {
     display: flex;
@@ -123,9 +126,12 @@ header > ul :hover {
     margin-right: 10px;
 
 }
+
 .postImg {
     width: 450px;
-    
+    border: thin solid rgb(180, 180, 180);
+    border-radius: 2px;
+    margin: 0px 5px 5px 0px;
 }
 .postBold {
     font-weight: 600;
@@ -138,14 +144,20 @@ header > ul :hover {
     color: gray;
 }
 
-.postIcon > i {
+.postIcon {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.postLeftIcon > i , .postIcon > i {
     font-size: 23px;
     margin-right: 10px;
 }
 
 .postLine {
-    border-bottom : thin solid black ;
-    width : 500px;
+    border-bottom : thin solid rgb(180, 180, 180);
+    width : 450px;
 }
 
 /* my profile */
@@ -154,6 +166,7 @@ header > ul :hover {
     flex-direction: row;
     align-items: center;
     justify-content: space-between; 
+    width: 19vw;
 }
 #myName {
     font-size: 16px;
@@ -173,8 +186,8 @@ header > ul :hover {
 
 /* recommend */
 #recommendSection {
-    grid-column-start: 3;
-    grid-column-end: 4;
+    grid-column-start: 5;
+    grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 3;
 
@@ -192,8 +205,8 @@ header > ul :hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
-    margin-top : 5px;
-    margin-bottom: 0px;
+    width: 19vw;
+    height: 30px;
 }
 #recommendMentForYou {
     font-size: 16px;
@@ -205,16 +218,20 @@ header > ul :hover {
     font-size: 15px;
     font-weight: 500;
 }
+/* 추천친구 목록 위치 수정 */
 .recommendProfile {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between; 
+    width: 19vw;
 }
 .profileGap {
     display: flex;
     flex-direction: row;
     align-items: center;
+    background-color: aqua;
+    height: 60px;
 }
 .profileGap > img {
     width: 40px;
@@ -237,13 +254,13 @@ header > ul :hover {
 }
 /* footer */
 #footerSection {
-    grid-column-start: 3;
-    grid-column-end: 4;
+    grid-column-start: 5;
+    grid-column-end: 6;
     grid-row-start: 3;
     grid-row-end: 4;
 
     background-color: purple;
-    padding: 20px;
+    padding: 10px;
 }
 footer > p {
     color: rgb(186, 186, 186);

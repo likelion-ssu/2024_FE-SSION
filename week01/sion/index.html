@@ -10,8 +10,8 @@
 <body>
     <div id="layout"> 
         <header id="headerSection">
-            <img id="logoImg" src="img/logo.png" alt="로고">
             <ul>
+                <img id="logoImg" src="img/logo.png" alt="로고">
                 <li><div class="menuList"><i class="fa-solid fa-house"></i>홈</div></li>
                 <li><div class="menuList"><i class="fa-solid fa-magnifying-glass"></i>검색</div></li>
                 <li><div class="menuList"><i class="fa-regular fa-compass"></i>탐색 탭</div></li>
@@ -23,7 +23,7 @@
             </ul>
             <ul>
                 <li><div class="menuList"><i class="fa-brands fa-threads"></i>Threads</div></li>
-                <li><div class="menuList"><i class="fa-solid fa-bars"></i>더보기</div></li>
+                <li><div class="menuList"><i class="fa-solid fa-bars"></i>더 보기</div></li>
             </ul>
         </header>
         <div class='menuLine'></div>
@@ -67,16 +67,20 @@
 
         <section id="postSection">
             <article class="post">
-                <div class="postProfile">
-                    <img src="img/choonsikProfile.png" alt="게시물프사사진">
-                    <P><span class="postBold">게시물아이디</span> <span class="postTime">・ 6시간</span></P>
+                <div class="postTop">
+                    <div class="postProfile">
+                        <img src="img/choonsikProfile.png" alt="게시물프사사진">
+                        <P><span class="postBold">게시물아이디</span> <span class="postTime">・ 6시간</span></P>
+                    </div>
                     <i class="fa-solid fa-ellipsis"></i>
                 </div>
                 <img class="postImg" src="img/choonsikProfile.png" alt="게시물 사진">
                 <div class="postIcon">
+                    <div class="postLeftIcon">
                     <i class="fa-regular fa-heart"></i>
                     <i class="fa-regular fa-comment"></i>
                     <i class="fa-regular fa-paper-plane"></i>
+                    </div>
                     <i class="fa-regular fa-bookmark"></i>
                 </div>
                 <p><span class="postBold">게시물친구아이디</span>님 <span class="postBold">여러 명</span>이 좋아합니다</p>
@@ -89,8 +93,10 @@
 
         <aside id="recommendSection">
             <div id="myProfile">
-                <img src="img/choonsikProfile.png" alt="내프로필사진">
-                <p class="profileName"><span class="postBold">xioniya</span><br><span id="myName">이시온</span></p>
+                <div class="profileGap">
+                    <img src="img/choonsikProfile.png" alt="내프로필사진">
+                    <p class="profileName"><span class="postBold">xioniya</span><br><span id="myName">이시온</span></p>
+                </div>
                 <p id="changeButton">전환</p>
             </div>
             <div id="recommendMent">
