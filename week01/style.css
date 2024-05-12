@@ -44,7 +44,9 @@ body {
 .fa-square-plus,
 .fa-user,
 .fa-ear-listen,
-.fa-bars {
+.fa-bars,
+.fa-comment,
+.fa-bookmark {
   font-size: 1.5rem;
 }
 
@@ -74,7 +76,7 @@ vr {
   flex-direction: row;
   width: 50rem;
   height: 8rem;
-  padding: 2rem 10rem;
+  padding: 1rem 10rem;
 }
 
 .story_section img {
@@ -86,18 +88,14 @@ vr {
   text-align: center;
 }
 
-/* main section */
-.main_section {
+/* main article */
+.main_article {
   display: flex;
   align-items: center;
-  width: 20rem;
-  height: 50rem;
-}
-
-.main_article {
-  width: 50rem;
-  height: 50rem;
-  margin-left: 15rem;
+  flex-direction: column;
+  width: 35rem;
+  height: 40rem;
+  padding: 1rem 18rem;
 }
 
 .main_title {
@@ -105,6 +103,21 @@ vr {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  width: 100%;
+}
+
+.three_elements_div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.one_elements_div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .main_title img {
@@ -114,18 +127,35 @@ vr {
 
 .main_profile_name {
   font-weight: bold;
-  margin-left: 0.5rem;
+  font-size: 1rem;
 }
 
 .main_time {
   color: gray;
-  margin-left: 0.5rem;
 }
 
 .main_img_div {
-  width: 25rem;
-  height: 20rem;
+  width: 100%;
+  height: 40rem;
 }
+
 .main_img_div img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+}
+
+.main_fa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.three_fa_div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
 }
