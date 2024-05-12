@@ -10,16 +10,6 @@ main {
   background: rgb(238, 255, 234);
 }
 
-/* header */
-header {
-  position: fixed;
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  background-color: white;
-  padding: 15px 0 15px 0;
-  border-bottom: 1px solid #e1e1e1;
-}
 h1 {
   font-family: "Lobster", cursive;
   font-size: 24px;
@@ -31,27 +21,7 @@ h1 {
 section{
     margin-left: 250px;
 }
-/* .bar-search {
-  position: relative;
-}
-.bar-search input {
-  width: 260px;
-  padding: 8px 16px 8px 40px;
-  background-color: #efefef;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  font-weight: lighter;
-}
-.bar-search input:focus {
-  outline: none;
-}
-.img-explore {
-  position: absolute;
-  top: 9px;
-  left: 16px;
-  width: 15px;
-} */
+
 .div-nav {
     height: 100%;
     display: flex;
