@@ -65,7 +65,7 @@ vr {
   background-color: #000;
   position: absolute;
   top: 0;
-  bottom: 0;
+  bottom: -5;
   left: 20rem;
 }
 
