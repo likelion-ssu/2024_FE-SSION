@@ -1,0 +1,66 @@
+header{
+    width: 20%;
+    background-color: yellow;
+    font-size:1rem;
+    position:fixed;
+}
+header nav li{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+section li div{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+
+main{
+    width: 60%;
+    background-color: aqua;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    margin: 1.5rem;
+}
+header p{
+    margin: 3rem;
+}
+aside{
+    margin: 1.5rem;
+   
+}
+aside div{
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+aside div div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 2rem;
+    gap:0.2rem
+}
+.right-container{
+    width: 20%;
+    background-color: blueviolet;
+}
+.whole-container{
+    display: flex;
+    
+}
+.follower-recommendation{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.font-blue{
+    color: blue;
+}
