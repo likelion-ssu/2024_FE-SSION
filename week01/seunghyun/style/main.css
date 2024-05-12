@@ -44,6 +44,10 @@ section{
 .img-navProfile {
   border-radius: 100%;
 }
+.nav-more{
+  position: absolute;
+  bottom: 30px;
+}
 
 /* story */
 .box-story {
