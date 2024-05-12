@@ -22,6 +22,9 @@ section{
     margin-left: 250px;
 }
 
+.bold {
+  font-weight: bold;
+}
 .div-nav {
     height: 100%;
     display: flex;
@@ -130,6 +133,10 @@ section{
 .text-like {
   font-size: 13px;
   font-weight: bold;
+  margin: 0 15px 15px 15px;
+}
+.feed-text {
+  font-size: 13px;
   margin: 0 15px 15px 15px;
 }
 
