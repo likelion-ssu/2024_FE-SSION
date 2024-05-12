@@ -1,62 +1,123 @@
 /*reset css*/
-@import url('./reset.css');
+@import url("./reset.css");
 
 /*header css*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-size: cover;
+}
+
+.header_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20rem;
+  height: 100%;
+}
 .img_header_logo {
-    width: 12rem;
-    height: 5rem;
-    margin-left: 1rem;
-    margin-top: 1rem;
+  width: 12rem;
+  height: 5rem;
 }
 
 .header_btn {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    border: none;
-    gap: 2rem;
-    padding-left: 2rem;
-    width: 30rem;
-    height: 5rem;
-    background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: none;
+  padding: 2rem 2rem;
+  gap: 2rem;
+  width: 20rem;
+  height: 5rem;
+  background-color: white;
 }
 
-.fa-house, .fa-magnifying-glass, .fa-compass, .fa-paper-plane, .fa-heart, .fa-square-plus, .fa-user, .fa-ear-listen, .fa-bars{
-    font-size: 1.5rem;
+.fa-house,
+.fa-magnifying-glass,
+.fa-compass,
+.fa-paper-plane,
+.fa-heart,
+.fa-square-plus,
+.fa-user,
+.fa-ear-listen,
+.fa-bars {
+  font-size: 1.5rem;
 }
 
-.header_home_span{
-    font-size: 1.5rem;
+.header_home_span {
+  font-size: 1.5rem;
 }
 
 .header_ul_first {
-    margin-bottom: 5rem;
+  margin-bottom: 10rem;
 }
 
 /*세로 수직선 긋기*/
-vr { 
-    display: block;
-    width:0.01rem;
-    background-color:#000;
-    position:absolute;
-    top:0;
-    bottom:0;
-    left: 20rem
+vr {
+  display: block;
+  width: 0.01rem;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 20rem;
 }
 
 .story_section {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin-left: 38rem;
-    margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: 38rem;
+  margin-top: 2rem;
 }
 
 .story_section img {
-    width: 5rem;
-    height: 5rem;
+  width: 5rem;
+  height: 5rem;
 }
 
 .story_section p {
-    text-align: center;
+  text-align: center;
+}
+
+.main_article {
+  width: 50rem;
+  height: 50rem;
+  margin-left: 13rem;
+}
+
+.main_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 5rem;
+}
+
+.main_title img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.main_profile_name {
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
+.main_time {
+  color: gray;
+  margin-left: 0.5rem;
+}
+
+.fa-ellipsis {
+  margin-left: 18rem;
+}
+
+.main_img img {
+  width: 40rem;
+  height: 40rem;
 }
