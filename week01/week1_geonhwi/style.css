@@ -29,10 +29,10 @@ body {
   justify-content: flex-start;
   align-items: center;
   border: none;
-  padding: 2rem 2rem;
   gap: 2rem;
+  padding: 2rem;
   width: 20rem;
-  height: 5rem;
+  height: 4rem;
   background-color: white;
 }
 
@@ -69,6 +69,15 @@ vr {
   left: 20rem;
 }
 
+.content_container {
+  display: flex;
+}
+
+.main_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 /* story section */
 .story_section {
   display: flex;
@@ -76,7 +85,7 @@ vr {
   flex-direction: row;
   width: 50rem;
   height: 8rem;
-  padding: 1rem 10rem;
+  padding: 0 10rem;
 }
 
 .story_section img {
@@ -95,7 +104,7 @@ vr {
   flex-direction: column;
   width: 35rem;
   height: 40rem;
-  padding: 1rem 18rem;
+  padding: 0 18rem;
 }
 
 .main_title {
@@ -158,4 +167,45 @@ vr {
   justify-content: flex-start;
   align-items: center;
   gap: 1rem;
+}
+
+.aside {
+  display: flex;
+  height: 28rem;
+}
+
+.aside_profile_container {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  width: 20rem;
+}
+
+.aside_profile_box {
+  display: flex;
+  gap: 1rem;
+}
+
+.aside_profile_span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5rem;
+  color: blue;
+}
+
+.aside_recommand_container {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  gap: 5rem;
+}
+
+.recommand {
+  color: gray;
+}
+
+.footer_ul {
+  color: grey;
+  padding: 1rem;
 }
