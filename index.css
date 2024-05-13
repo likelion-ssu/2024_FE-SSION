@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  margin: 30px 0px;
+  background-color: #fafafa;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  width: 300px;
+  border-right: 1px solid gray;
+}
+
+.header_container {
+  margin-top: 60px;
+  width: 100%;
+}
+
+.header_button {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: white; */
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.header_button img {
+  width: 30px;
+  height: 30px;
+  margin-left: 40px;
+  margin-right: 0px;
+}
+
+#header_user_profile {
+  border-radius: 30px;
+}
+
+.header_button span {
+  font-weight: 500;
+  margin-left: 0px;
+  padding-left: 30px;
+}
+
+.header_button_footer {
+  margin-top: 200px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.today_story {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.today_story img {
+  width: 60px;
+  height: 60px;
+  border-radius: 35px;
+  border: 3px solid transparent;
+  background-image: linear-gradient(#fff, #fff),
+    linear-gradient(to right, red 0%, orange 100%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.today_story span {
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+article {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.post {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.post_header {
+  display: flex;
+  align-items: center;
+  padding: 10px 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.post_header #post_user_profile {
+  width: 36px;
+  height: 36px;
+  border-radius: 35px;
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+.post_header #post_more_setting {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+.post_header span {
+  margin-left: 0px;
+}
+
+.post_body {
+  width: 100%;
+}
+
+.post_body img {
+  width: 100%;
+  height: 400px;
+}
+
+.post_action {
+  display: flex;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.post_action_front {
+  width: 20%;
+  margin-left: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post_action_back {
+  margin-right: 7px;
+}
+
+.post_action_icon {
+  width: 25px;
+  height: 25px;
+}
+
+.like_totalnumber {
+  margin-left: 10px;
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.post_paragraph {
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+.comment_totalnumber {
+  font-size: 13px;
+  margin-left: 10px;
+  margin-top: 6px;
+  color: gray;
+}
+
+.date {
+  font-size: 13px;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: gray;
+}
+
+.post_reaction {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid gray;
+}
+
+.post_reaction img {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.send_comment {
+  color: #1e90ff;
+  margin-right: 15px;
+}
+
+.InputBlock {
+  border: 1px solid white;
+}
+
+aside {
+  width: 450px;
+  margin-top: 50px;
+}
+
+.user_another_account {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.user_another_account img {
+  width: 45px;
+  height: 45px;
+  border-radius: 35px;
+  margin-right: 10px;
+  margin-left: 0px;
+}
+
+.user_info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+}
+
+.user_info span {
+  margin-left: 0px;
+}
+
+.user_profile_transition {
+  margin-right: 10px;
+  color: #1e90ff;
+}
+
+.recommendation_bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#recommendation_bar_title {
+  margin-left: 10px;
+  color: gray;
+}
+
+#recommendation_bar_subtitle {
+  margin-right: 10px;
+  font-weight: 700;
+}
+
+.user_recommendation_container {
+  margin-top: 15px;
+}
+
+.user_recommendation {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.user_recommendation img {
+  width: 45px;
+  height: 45px;
+  border-radius: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#user_nickname {
+  font-weight: 500;
+}
+
+#user_sub_info {
+  color: gray;
+}
+
+.follow {
+  color: #1e90ff;
+  margin-right: 15px;
+}
+
+footer {
+  margin-top: 70px;
+  color: gray;
+  font-weight: 300;
+}
