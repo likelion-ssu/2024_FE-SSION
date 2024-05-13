@@ -9,9 +9,10 @@
 </head>
 <body>
     <div id="layout"> 
+        <!-- 헤더 부분 -->
         <header id="headerSection">
+            <img id="logoImg" src="img/logo.png" alt="로고">
             <ul>
-                <img id="logoImg" src="img/logo.png" alt="로고">
                 <li><div class="menuList"><i class="fa-solid fa-house"></i>홈</div></li>
                 <li><div class="menuList"><i class="fa-solid fa-magnifying-glass"></i>검색</div></li>
                 <li><div class="menuList"><i class="fa-regular fa-compass"></i>탐색 탭</div></li>
@@ -28,7 +29,7 @@
         </header>
         <div class='menuLine'></div>
 
-        
+        <!-- 스토리 부분 -->
         <section id="storySection">
             <div class="storyProfile">
                 <img src="img/choonsik1.png" alt="기본프사">
@@ -62,9 +63,13 @@
                 <img src="img/choonsik9.png" alt="기본프사">
                 <p>lcs_187cm</p>
             </div>
-            <i class="fa-solid fa-circle-chevron-right"></i>
+            
         </section>
+        <!-- 스토리 화살표 -->
+        <!-- <i class="fa-solid fa-circle-chevron-right"></i> -->
 
+        <!-- 게시물 부분 (4개의 게시물) -->
+        <!-- postTop : 프로필, 시간, 더보기 / postProfile : 프로필, 시간 / postBold : 게시물 내의 굵은 글씨 -->
         <section id="postSection">
             <article class="post">
                 <div class="postTop">
@@ -168,7 +173,7 @@
                     <i class="fa-regular fa-bookmark"></i>
                 </div>
                 <p><span class="postBold">happy_cs_life</span>님 <span class="postBold">여러 명</span>이 좋아합니다</p>
-                <p><span class="postBold">ch._.s2</span> 게시물내용 어쩌구저쩌구</p>
+                <p><span class="postBold">ch._.s2</span> 이언이랑 캠핑 갔지룽</p>
                 <div class="postReaction">
                     <input class="postComment" type="text" placeholder="댓글 달기...">
                     <i class="fa-regular fa-face-smile"></i>
@@ -181,9 +186,9 @@
 
         </section>
 
+        <!-- 추천친구 부분 -->
+        <!-- profileGap : 사진, 아이디, 이름(내용) / myProfile : 전환버튼 포함 / recommendProfile : 팔로우 버튼 포함 -->
         <aside id="recommendSection">
-            
-           
             <ul>
                 <div id="myProfile">
                     <div class="profileGap">
@@ -234,7 +239,7 @@
             </ul>
         </aside>
         
-
+        <!-- 푸터 부분 -->
         <footer id="footerSection">
             <p>소개 . 도움말 . 홍보 센터 . API . 채용 정보 . <br>
                 개인정보처리방침 . 약관 . 위치 . 언어 . Meta Verified</p>

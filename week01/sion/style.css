@@ -94,6 +94,10 @@
     border: thin solid rgb(180, 180, 180);
 }
 
+/* .fa-circle-chevron-right {
+    font-size: 30px;
+    color: white; 
+} */
 /* post */
 #postSection {
     grid-column-start: 3;
