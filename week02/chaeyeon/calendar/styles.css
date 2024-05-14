@@ -1,0 +1,49 @@
+body{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.weeks{
+    justify-content: space-around;
+}
+.wrapper{
+    background-color: aliceblue;
+    width: 25rem;
+    border-radius: 1rem;
+}
+.wrapper header
+{   padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.calendar ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.calendar ul li{
+    width: calc(100%/7);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+}
+.days{
+   margin-bottom: 1rem;
+}
+.weeks{
+    margin: 1rem 0;
+   
+}
+.weeks li{
+    font-weight: bold;
+}
+.current{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.icons i{
+    margin-left: 2rem;
+}
