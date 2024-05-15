@@ -57,6 +57,7 @@
     grid-column-start: 3;
     grid-column-end: 4;
     background-color: green;
+    border-bottom: 1px solid;
 }
 
 /* footer */
@@ -64,4 +65,31 @@
     grid-column-start: 3;
     grid-column-end: 4;
     background-color: blue;
+    font-size: 14px;
+    font-weight: 300;
+}
+.footerBold {
+    font-weight: 500;
+}
+
+.footerMenu > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.footerMenu > ul > li {
+    margin-right: 20px;
+}
+#footerIcon{
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+}
+#footerAlign {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#coSelect {
+    border: opx;
 }
