@@ -1,0 +1,29 @@
+.layout {
+    display: grid;
+    grid-template-columns: 25vw 50vw 25vw;
+}
+
+#header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: red;
+    position: sticky;
+}
+
+#main {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: yellow;
+}
+
+#menu {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: green;
+}
+
+#footer {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: blue;
+}
