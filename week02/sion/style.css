@@ -5,10 +5,10 @@
 
 /* header */
 #header {
-    grid-column-start: 2;
-    grid-column-end: 5;
     background-color: red;
-    position: sticky;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -51,6 +51,9 @@
     grid-column-end: 6;
     background-color: yellow;
 }
+#download > img {
+    height: 100vh;
+}
 
 /* menu */
 #menu {
@@ -91,5 +94,5 @@
     justify-content: space-between;
 }
 #coSelect {
-    border: opx;
+    border: 0px;
 }
