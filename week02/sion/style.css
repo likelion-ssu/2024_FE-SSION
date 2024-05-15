@@ -1,29 +1,67 @@
 .layout {
     display: grid;
-    grid-template-columns: 25vw 50vw 25vw;
+    grid-template-columns: 10vw 15vw 50vw 15vw 10vw;
 }
 
+/* header */
 #header {
-    grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 5;
     background-color: red;
     position: sticky;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
-
+#logo {
+    width: 80px;
+    height: 40px;
+}
+#headerMenu {
+    display: flex;
+}
+#headerMenu > ul{
+    list-style: none;
+    display: flex;
+}
+#headerMenu > ul > li {
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+#search {
+    background-color: rgb(214, 214, 214);
+    width: 250px;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#chatButton {
+    width: 80px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+}
+/* main */
 #main {
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 6;
     background-color: yellow;
 }
 
+/* menu */
 #menu {
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
     background-color: green;
 }
 
+/* footer */
 #footer {
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
     background-color: blue;
 }
