@@ -99,6 +99,42 @@
     margin: 5px;
 }
 
+.mainSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.mainSection > img {
+    height: 100vh;
+}
+.mainTitle {
+    color: rgb(255, 106, 0);
+    font-size: 18px;
+    font-weight: 600;
+}
+.mainComment {
+    margin: 180px;
+}
+.mainComment > h1 {
+    font-size: 40px;
+}
+
+.mainContent {
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+}
+.mainBtn {
+    padding: 13px;
+    background-color: rgb(210, 210, 210);
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 5px;
+}
+.mainBtnSection {
+    display: flex;
+}
 /* menu */
 #menu {
     grid-column-start: 3;
