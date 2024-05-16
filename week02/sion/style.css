@@ -114,7 +114,7 @@
     font-weight: 600;
 }
 .mainComment {
-    margin: 180px;
+    margin: 150px;
 }
 .mainComment > h1 {
     font-size: 40px;
@@ -133,6 +133,32 @@
     margin: 5px;
 }
 .mainBtnSection {
+    display: flex;
+}
+.lifeIcon {
+    background-color: rgb(253, 189, 144);
+    color: rgb(255, 106, 0);
+    font-size: 25px;
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.infoTitle {
+    font-size: 14px;
+    font-weight: 500;
+}
+.lifeInfo {
+    margin: 20px;
+}
+.info {
+    font-size: 13px;
+    color: gray;
+}
+.lifeInfoSection {
     display: flex;
 }
 /* menu */
