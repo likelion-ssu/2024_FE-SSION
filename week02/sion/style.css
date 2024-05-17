@@ -1,6 +1,6 @@
 .layout {
     display: grid;
-    grid-template-columns: 10vw 15vw 50vw 15vw 10vw;
+    grid-template-columns: 10vw 12vw 56vw 12vw 10vw;
 }
 
 /* header */
@@ -99,7 +99,7 @@
     justify-content: center;
     margin: 5px;
 }
-
+/* main 전체적인 틀 */
 .mainSection {
     display: flex;
     flex-direction: row;
@@ -136,9 +136,11 @@
 .mainBtnSection {
     display: flex;
 }
+/* 중고거래 */
 #deal {
     background-color: #F9F9F9;
 }
+/* 동네생활 */
 #life {
     background-color: #FFF8F1;
 }
@@ -168,27 +170,60 @@
 .lifeInfoSection {
     display: flex;
 }
+/* 알바 */
 #job {
     background-color: #F9F9F9;
 }
+/* 동네업체 */
 #market {
     background-color: #F6FDEB;
 }
+
 /* menu */
 #menu {
     grid-column-start: 3;
     grid-column-end: 4;
-    background-color: green;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    display: flex;
+    padding-top: 40px;
 }
-
+#menuUl {
+    display: flex;
+    font-size: 14px;
+    margin-right: 50px;
+}
+#menuUl > ul {
+    list-style: none;
+}
+#menuUl > ul > li{
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+#menuDownload > p {
+    font-weight: 500;
+}
+#menuDownloadbtnSection {
+    display: flex;
+}
+.menudownloadBtn {
+    background-color: rgb(211, 211, 211);
+    font-weight: 600;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
 /* footer */
 #footer {
     grid-column-start: 3;
     grid-column-end: 4;
-    background-color: blue;
     font-size: 14px;
     font-weight: 300;
+    color: gray;
 }
 .footerBold {
     font-weight: 500;
@@ -214,6 +249,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+#footerInfo > p{
+    gap: 10px;
 }
 #coSelect {
     border: 0px;
