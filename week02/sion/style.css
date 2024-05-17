@@ -5,7 +5,7 @@
 
 /* header */
 #header {
-    background-color: red;
+    background-color: white;
     position: fixed;
     top: 0px;
     width: 100vw;
@@ -48,13 +48,13 @@
     border: 1px solid gray;
     border-radius: 5px;
     font-size: 15px;
+    background-color: white;
 }
 
 /* main */
 #main {
     grid-column-start: 1;
     grid-column-end: 6;
-    background-color: yellow;
 }
 
 /* download */
@@ -63,6 +63,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color: #FFFAE0;
 
 }
 #download > img {
@@ -135,6 +136,12 @@
 .mainBtnSection {
     display: flex;
 }
+#deal {
+    background-color: #F9F9F9;
+}
+#life {
+    background-color: #FFF8F1;
+}
 .lifeIcon {
     background-color: rgb(253, 189, 144);
     color: rgb(255, 106, 0);
@@ -160,6 +167,12 @@
 }
 .lifeInfoSection {
     display: flex;
+}
+#job {
+    background-color: #F9F9F9;
+}
+#market {
+    background-color: #F6FDEB;
 }
 /* menu */
 #menu {
@@ -193,6 +206,9 @@
     font-size: 23px;
     display: flex;
     align-items: center;
+}
+.fa-facebook, .fa-instagram, .fa-youtube, .fa-comment {
+    margin-right: 15px;
 }
 #footerAlign {
     display: flex;
