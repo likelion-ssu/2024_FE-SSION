@@ -4,8 +4,9 @@ body {
   font-family: "Noto Sans KR", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  color: #212529;
   /* 배경색 바꾸기 */
-  background-color: lightyellow;
+  background-color: rgb(255, 121, 121);
 }
 
 header {
@@ -77,4 +78,70 @@ header {
   font-size: 1rem;
   width: 100px;
   font-weight: 600;
+}
+
+/* section */
+.main-section-top-pale-peach {
+  background-color: #fffae0;
+}
+.main-section-top {
+  width: 1024px;
+  height: 760px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #fffae0;
+}
+
+.main-title {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 73px;
+  padding-top: 200px;
+  margin-bottom: 3.2rem;
+}
+
+.service-desc {
+  font-weight: 300;
+  font-size: 18px;
+  color: #7c7c7c;
+  line-height: 30px;
+}
+
+.download-btn {
+  margin-top: 20px;
+}
+
+.download-btn .fixed-download-button {
+  width: 190px;
+  height: 56px;
+  border-radius: 10px;
+  background-color: #ff6f0f;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 14px 2rem;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  margin-right: 1rem;
+}
+.fixed-google-play {
+  fill: #fff;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.fixed-apple-store {
+  fill: #fff;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.download-btn .fixed-download-text {
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  margin-left: 8px;
+  font-weight: 700;
+  vertical-align: middle;
+  line-height: 28px;
 }
