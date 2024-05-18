@@ -80,9 +80,10 @@ header {
   font-weight: 600;
 }
 
-/* section */
+/* section top */
 .main-section-top-pale-peach {
   background-color: #fffae0;
+  padding-top: 200px;
 }
 .main-section-top {
   width: 1024px;
@@ -93,10 +94,9 @@ header {
 }
 
 .main-title {
-  font-size: 54px;
+  font-size: 50px;
   font-weight: 600;
   line-height: 73px;
-  padding-top: 200px;
   margin-bottom: 3.2rem;
 }
 
@@ -160,4 +160,55 @@ header {
   background-color: #fffae0;
   background-repeat: no-repeat;
   background-size: 804px 685px;
+}
+
+/* section 2 */
+.service-title {
+  font-weight: 700;
+  font-size: 18px;
+  color: #ff6f0f;
+  margin-bottom: 10px;
+}
+
+.main-content {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-image {
+  display: inline-block;
+}
+
+.main-image-02 {
+  background-size: 655px 750px;
+  width: 655px;
+  height: 750px;
+}
+
+.home-buttons {
+  margin-top: 3.2rem;
+}
+
+.button-text {
+  font-size: 14px;
+  line-height: 23.76px;
+  font-weight: 600;
+}
+
+.home-button {
+  background-color: #e9ecef;
+  color: #212529;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 8px 18px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.home-button:hover {
+  background-color: #dde2e8;
 }
