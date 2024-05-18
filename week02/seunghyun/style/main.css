@@ -124,6 +124,11 @@ header {
   text-align: center;
   margin-right: 1rem;
 }
+
+.fixed-download-button:hover {
+  background-color: #f1690e;
+}
+
 .fixed-google-play {
   fill: #fff;
   vertical-align: middle;
@@ -144,4 +149,15 @@ header {
   font-weight: 700;
   vertical-align: middle;
   line-height: 28px;
+}
+
+.main-image-top {
+  position: absolute;
+  right: -84px;
+  bottom: 0;
+  width: 655px;
+  height: 800px;
+  background-color: #fffae0;
+  background-repeat: no-repeat;
+  background-size: 804px 685px;
 }
