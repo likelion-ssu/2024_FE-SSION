@@ -1,81 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 body {
-    font-family: "Noto Sans KR", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    /* 배경색 바꾸기 */
-    background-color: lightyellow;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  /* 배경색 바꾸기 */
+  background-color: lightyellow;
 }
 
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 999;
-    background-color: #fff;
-    color: #212124;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #fff;
+  color: #212124;
 }
 
 .gnb {
-    background-color: rgb(255, 255, 255);
-    padding: 12px 100px 12px 100px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 12px 100px 12px 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .gnb-logo {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .nav-ul {
-    display: flex;
-    flex-direction: row;
-    margin-left: 20px;
-    margin-right: 100px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-right: 100px;
 }
 
 .nav-ul li a {
-    font-weight: 600;
-    margin-right: 2.5rem;
-    color: #4d5159;
-    white-space: nowrap;
+  font-weight: 600;
+  margin-right: 2.5rem;
+  color: #4d5159;
+  white-space: nowrap;
 }
 
-.nav-ul li a:hover{
-    color: #4d5159ad;
+.nav-ul li a:hover {
+  color: #4d5159ad;
 }
 
 .gnb-input-chat {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    margin-left: 180px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: 180px;
 }
 
-.gnb-input input{
-    background: rgb(243, 243, 243);
-    font-size: 1rem;
-    font-weight: 300;
-    box-sizing: border-box;
-    height: 2.5rem;
-    padding: 0.9rem 1.2rem;
-    border: none;
-    border-radius: 0.3rem;
-    color:#212124;
-    width: 250px;
-    outline: none;
+.gnb-input input {
+  background: rgb(243, 243, 243);
+  font-size: 1rem;
+  font-weight: 300;
+  box-sizing: border-box;
+  height: 2.5rem;
+  padding: 0.9rem 1.2rem;
+  border: none;
+  border-radius: 0.3rem;
+  color: #212124;
+  width: 250px;
+  outline: none;
 }
 
 .gnb-chat {
-    background-color: #fff;
-    box-sizing: border-box;
-    border:rgb(209, 209, 209) solid 1px;
-    border-radius: 0.3rem;
-    font-size: 1rem;
-    width: 100px;
-    font-weight: 600;
+  background-color: #fff;
+  box-sizing: border-box;
+  border: rgb(209, 209, 209) solid 1px;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  width: 100px;
+  font-weight: 600;
 }
