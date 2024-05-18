@@ -19,6 +19,15 @@ header {
   color: #212124;
 }
 
+.text-s {
+  font-size: 1.2rem !important;
+  line-height: 1.5;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
 .gnb {
   background-color: rgb(255, 255, 255);
   padding: 12px 100px 12px 100px;
@@ -212,4 +221,44 @@ header {
 
 .home-button:hover {
   background-color: #dde2e8;
+}
+
+/* main-reverse */
+.main-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.main-image-03 {
+  background-size: 655px 750px;
+  width: 650px;
+  height: 750px;
+}
+
+.story-list {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.story-list-item {
+  margin-right: 1rem;
+  margin-left: 0;
+  width: 124px;
+}
+
+.icon-story {
+  width: 56px;
+  height: 56px;
+  background-size: 56px 56px;
+}
+
+.item-desc {
+  font-weight: 400;
+  font-size: 13px;
+  color: #7c7c7c;
+  line-height: 17px;
+  margin-top: 10px;
 }
