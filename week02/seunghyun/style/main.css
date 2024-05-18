@@ -19,6 +19,11 @@ header {
   color: #212124;
 }
 
+::selection {
+  color: #212529;
+  background: #ffb98b;
+}
+
 .text-s {
   font-size: 1.2rem !important;
   line-height: 1.5;
