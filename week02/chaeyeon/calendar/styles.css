@@ -40,7 +40,7 @@ body{
 .weeks li{
     font-weight: bold;
 }
-.current{
+#current{
     font-size: 1.5rem;
     font-weight: bold;
 }
