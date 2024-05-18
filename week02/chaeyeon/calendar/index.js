@@ -24,15 +24,23 @@ function renderCalendar(){
     for(let i=0;i<firstDayOfweek;i++){
         daysHtml+='<li></li>';
     }
+
+    //현재 날짜
+    //현재 날짜 (년, 월, 일)
+    const todayStr = new Date(today.getFullYear(), today.getMonth(), today.getDate()).toISOString().split('T')[0];
     //날짜 채우기
     for(let day=1;day<=daysInMonth;day++){
         //오늘의 날짜를 빨간 글씨로 바꾸기
-        daysHtml+=`<li>${day}</li>`;
-        
-    }
+          const date=new Date(currentYear, currentMonth, day).toISOString().split('T')[0];
+          if (date === todayStr) {
+              daysHtml+=`<li class="current-date">${day}</li>`;
+          } else {
+              daysHtml+=`<li>${day}</li>`;
+          }
+      }
     //캘린더 html업데이트
     document.querySelector('.days').innerHTML=daysHtml;
-    currentDate
+
 }
 renderCalendar();
 //이전 달로 이동하는 함수

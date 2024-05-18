@@ -47,11 +47,15 @@ body{
 .icons i{
     margin-left: 2rem;
 }
+
+.days li:hover,
 .icons i:hover{
-    cursor: pointer;
-}
-.days li:hover{
     transform: scale(1.2);
     transition: box-shadow 0.3s ease;
-    font-weight: bold;   
+    font-weight: bold;  
+    cursor: pointer; 
+}
+.current-date {
+    color: rgb(226, 0, 0); 
+    font-weight: bold; 
 }
