@@ -317,11 +317,35 @@ footer {
 
 .footer-download-buttons {
   display: flex;
+  flex-direction: row;
 }
 
 .footer-download-button {
   margin-top: 0.8rem;
   margin-left: 0;
+  background-color: #f2f5f7;
+  color: #212529;
+  border: none;
+  border-radius: 6px;
+  padding: 14px 24px;
+  margin-right: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.footer-download-icon {
+  margin-right: 10px;
+}
+
+.footer-download-button p {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.footer-download-button:hover {
+  filter: opacity(0.5) drop-shadow(0 0 0 #b4b4b4);
 }
 
 .footer-nav {
@@ -340,6 +364,8 @@ footer {
 
 .footer-li {
   margin-bottom: 0.9rem;
+  white-space: nowrap;
+  width: fit-content;
 }
 
 .footer-a {
