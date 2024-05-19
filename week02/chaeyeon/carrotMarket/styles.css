@@ -148,4 +148,29 @@ nav{
     font-weight: bold;
 }
 
-
+form input ,.btn{
+    height: 2.5rem;
+    background-color: #8080802b;
+    border: none;
+    border-radius: 0.2rem;
+    width: 13rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+form button{
+    height: 2rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+form button:hover, .btn:hover{
+    background-color: #9a8c8ce2;
+}
+.btn{
+    display: flex;
+    justify-content:flex-start;
+    padding: 0 2rem;
+    align-items: center;
+}
+.btn i{
+    margin-right: 1rem;
+}
