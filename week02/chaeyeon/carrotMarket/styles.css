@@ -84,3 +84,68 @@ header{
 nav{
     margin: 0 6rem;
 }
+.footer {
+    background-color: #f8f8f8;
+    padding: 4rem 2rem;
+}
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 15rem;
+  
+}
+.footer-column {
+    margin-bottom: 2rem;
+   
+}
+.footer-column ul{
+    display: flex;
+    flex-direction: column;
+}
+.footer-column ul li {
+    margin-bottom: 1rem;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.app-download span {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.app-download a img {
+    width: 12rem;
+    margin-right: 1rem;
+}
+
+.footer-info {
+    font-size: 0.8rem;
+    color: #555;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+    margin: 0 15rem;
+}
+
+.footer-info p {
+    margin-bottom: 1rem;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-social a img {
+    width: 3rem;
+    height: 3rem;
+}
+.app-download span{
+    font-weight: bold;
+}
+
+
