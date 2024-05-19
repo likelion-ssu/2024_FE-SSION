@@ -386,6 +386,10 @@ footer {
   margin-right: 20px;
 }
 
+.info-ask a:hover {
+  text-decoration: underline #868b94;
+}
+
 .info-address {
   line-height: 1.5;
   font-size: 10px;
@@ -442,4 +446,16 @@ footer {
 
 .info-bottom a {
   margin-right: 1rem;
+}
+
+.info-bottom a:hover {
+  text-decoration: underline #868b94;
+}
+
+.info-privacy {
+  color: #212124;
+}
+
+.info-privacy:hover {
+  text-decoration: underline #212124;
 }
