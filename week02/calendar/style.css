@@ -45,6 +45,7 @@ body {
   height: 50px;
   border: none;
   font-weight: 700;
+  padding: 0;
   /* line-height 속성: text area의 높이를 설정할 수 있다. */
   background-color: transparent;
   cursor: pointer;
@@ -60,6 +61,7 @@ body {
   margin-bottom: 10px;
   color: #aad7ff;
   font-weight: 700;
+  margin-top: 13px;
 }
 
 .go-today {
@@ -109,11 +111,13 @@ body {
   text-align: center;
 }
 
+/* 일요일은 빨간색 글씨 처리 */
 .day:nth-child(7n + 1),
 .date:nth-child(7n + 1) {
   color: #d13e3e;
 }
 
+/* 토요일은 파란색 글씨 처리 */
 .day:nth-child(7n),
 .date:nth-child(7n) {
   color: #396ee2;
