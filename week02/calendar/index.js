@@ -56,7 +56,7 @@ const renderCalendar = () => {
   dates.forEach((date, i) => {
     const condition =
       i >= firstDateIndex && i < lastDateIndex + 1 ? "this" : "other";
-    dates[i] = `<div class="date ${condition}">${date}</div>`; // 수정: span이 아닌 div.date에 today 클래스 적용
+    dates[i] = `<div class="date ${condition}">${date}</div>`;
   });
 
   // innerHTML 속성을 사용하여 동적으로 날짜를 추가한다.
@@ -66,7 +66,6 @@ const renderCalendar = () => {
   const today = new Date();
   if (viewMonth === today.getMonth() && viewYear === today.getFullYear()) {
     for (let date of document.querySelectorAll(".date.this")) {
-      // 수정: span이 아닌 div.date 선택
       if (+date.innerText === today.getDate()) {
         date.classList.add("today");
         break;
