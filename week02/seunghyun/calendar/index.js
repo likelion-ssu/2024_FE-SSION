@@ -1,6 +1,6 @@
 "use strict";
 
-const date = new Date();
+let date = new Date();
 
 const renderCalender = () => {
   const viewYear = date.getFullYear();
@@ -43,3 +43,18 @@ const renderCalender = () => {
 };
 
 renderCalender();
+
+const prevMonth = () => {
+  date.setMonth(date.getMonth() - 1);
+  renderCalender();
+};
+
+const nextMonth = () => {
+  date.setMonth(date.getMonth() + 1);
+  renderCalender();
+};
+
+const goToday = () => {
+  date = new Date();
+  renderCalender();
+};
