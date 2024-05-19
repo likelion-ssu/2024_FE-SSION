@@ -74,3 +74,13 @@ body {
     border-bottom: 1px solid #333;
     border-left: 1px solid #333;
 }
+
+.day:nth-child(7n +1),
+.date:nth-child(7n + 1){
+    color: #D13E3E;
+}
+
+.day:nth-child(7n),
+.date:nth-child(7n) {
+    color: #396EE2;
+}
