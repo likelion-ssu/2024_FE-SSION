@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: "Gaegu", sans-serif;
     box-sizing: border-box;
 }
 
@@ -25,6 +27,7 @@ body {
 
 .year-month {
     font-size: 35px;
+    font-weight: 700;
 }
 
 .nav {
@@ -38,6 +41,7 @@ body {
     height: 30px;
     border: none;
     font-size: 16px;
+    font-weight: 700;
     line-height: 34px;
     background-color: transparent;
     cursor: pointer;
