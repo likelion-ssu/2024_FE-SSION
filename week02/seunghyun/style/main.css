@@ -432,3 +432,14 @@ footer {
 .select-nation:hover {
   background-color: #eeeeee;
 }
+
+.info-bottom {
+  flex-wrap: wrap;
+  display: flex;
+  grid-column: 1 / 4;
+  margin-top: 1.6rem;
+}
+
+.info-bottom a {
+  margin-right: 1rem;
+}
