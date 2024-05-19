@@ -1,0 +1,49 @@
+ul{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 2rem;
+}
+ul li a{
+    color:gray;
+    font-weight: bold;
+}
+form input {
+    color: gray;
+    width: 25rem;
+}
+ul div{
+    display: flex;
+    align-items: center;}
+ul div li, ul div svg{
+    margin: 0 1rem;
+}
+header{
+    margin: 0rem 6rem;
+}
+.section1{
+    background-color: rgb(255, 250, 224);
+    padding: 0 10rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.mascot img{
+    width: 30rem;
+}
+.main-title{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+.sub-title{
+    font-size: 1rem;
+    color: gray;
+    margin-bottom: 1rem;
+}
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 6rem;
+}
