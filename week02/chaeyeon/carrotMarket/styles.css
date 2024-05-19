@@ -4,9 +4,12 @@ ul{
     justify-content: space-between;
     margin: 1rem 2rem;
 }
-ul li a{
-    color:gray;
+ul div  li a{
+    color: rgba(0, 0, 0, 0.79);
     font-weight: bold;
+}
+ul div li a:hover{
+    color: gray;
 }
 form input {
     color: gray;
@@ -18,17 +21,35 @@ ul div{
 ul div li, ul div svg{
     margin: 0 1rem;
 }
-header{
-    margin: 0rem 6rem;
-}
-.section1{
+
+.section1,.section3,.section4,.section5{
     background-color: rgb(255, 250, 224);
     padding: 0 10rem;
     display: flex;
     justify-content: space-between;
     
 }
-.mascot img{
+.section3{
+    background-color: #FFF8F1;
+}
+.section4{
+    background-color: #f9f9f9;
+}
+.section5{
+    background-color: #F6FDEC;
+}
+
+.section2{
+    padding: 0 10rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.section1-img img,
+.section2-img img,
+.section3-img img,
+.section4-img img,
+.section5-img img{
     width: 30rem;
 }
 .main-title{
@@ -37,8 +58,8 @@ header{
     margin-bottom: 1.5rem;
 }
 .sub-title{
-    font-size: 1rem;
-    color: gray;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.513);
     margin-bottom: 1rem;
 }
 .content-wrapper{
@@ -46,4 +67,20 @@ header{
     flex-direction: column;
     justify-content: center;
     margin: 6rem;
+}
+.section2-buttons{
+    display: flex;
+    flex-direction: column;
+}
+.sub-title-orange{
+    color:#FF6F0F;
+    font-weight: bold;
+}
+header{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+nav{
+    margin: 0 6rem;
 }
