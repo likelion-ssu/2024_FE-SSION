@@ -157,6 +157,11 @@ section {
   align-items: left;
 }
 
+.section_description {
+  font-size: 20px;
+  font-weight: 300;
+}
+
 .section_1 {
   background-color: #fffae0;
 }
@@ -287,43 +292,157 @@ section {
 }
 
 footer {
-  height: 80vh;
-}
-/* 특정 창 너비 이상에서는 양쪽 공백을 줄이기 시작
-@media (max-width: 1200px) {
-  header {
-    padding: 0 10px; /* 양쪽 공백을 줄임 */
-/* }
+  width: 100%;
+  display: block;
+  border-top: 1px solid gainsboro;
+  padding: 0px 16px;
 }
 
-/* 더 작은 창 너비에서는 wrapper 사이의 공백을 줄임 */
-/* @media (max-width: 800px) {
-  .header_left_wrapper,
-  .header_search_wrapper {
-    gap: 5px;
-  }
-} */
+.footer_wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 0 auto;
+}
 
-/* 더 작은 창 너비에서는 레이아웃을 변경 */
-/* @media (max-width: 600px) {
-  header {
-    flex-direction: column;
-    height: auto;
-    align-items: flex-start;
-  }
+.footer_section_first {
+  display: flex;
+  flex-direction: row;
+  max-width: 900px;
+  height: 350px;
+  margin: 0 0;
+  padding: 0;
+}
 
-  .header_search_wrapper {
-    width: 100%;
-    justify-content: flex-start;
-    margin-top: 10px;
-  }
+.footer_nav {
+  width: 40%;
+  padding: 48px 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  font-weight: 300;
+}
 
-  textarea {
-    width: 100%;
-    flex-grow: 1;
-  }
+.footer_ul {
+  display: flex;
+  flex-direction: column;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  width: 33%;
+  list-style: none;
+}
 
-  button {
-    margin-left: 10px;
-  }
-} */
+.footer_li {
+  width: fit-content;
+  /* content에 맞는 너비를 갖는다 */
+  margin: 16px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.footer_section_download {
+  width: fit-content;
+  float: right;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 48px 0;
+  margin: 0;
+  margin-left: 100px;
+}
+
+.footer_section_download_text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #5d5d5d;
+}
+
+.footer_section_download_buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.footer_section_download_button {
+  width: 147px;
+  height: 44px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.footer_section_last {
+  display: grid;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 24px 0px 100px;
+  border-top: 1px solid #d7d7d7;
+}
+
+.footer_lastSection_info {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+  font-size: 16px;
+  color: #868294;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.info_first {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 0;
+  margin: 0;
+  height: fit-content;
+  margin-bottom: 10px;
+}
+
+.info_sec {
+  padding: 0;
+  margin: 0;
+  height: fit-content;
+  gap: 5px;
+}
+
+.info_sec a {
+  margin-right: 8px;
+  font-size: 16px;
+  color: #868294;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.info_first_div {
+  display: flex;
+  align-items: center;
+}
+.footer_lastSection_SNS {
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+.footer_lastSection_rule {
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  grid-column: 1 / 4;
+}
+
+.rule_sec_div {
+  margin-right: 16px;
+}
+
+.rule_sec {
+  font-size: 16px;
+}
