@@ -116,6 +116,14 @@ nav{
     display: block;
     margin-bottom: 1rem;
 }
+.app-links{
+    display: flex;
+}
+.app-links a button{
+    background-color: #FF6F0F;
+    border-radius: 1rem;
+    color:white
+}
 
 .app-download a img {
     width: 12rem;
@@ -167,13 +175,13 @@ form button:hover, .btn:hover{
 }
 .btn{
     display: flex;
-    justify-content:flex-start;
+    justify-content:center;
     padding: 0 2rem;
     align-items: center;
     margin-bottom: 1rem;
 }
 .btn i{
-    margin-right: 1rem;
+    margin-right: 0.5rem;
 }
 .hidden-magnifying-glass,.hidden-bar{
     display: none;
@@ -186,6 +194,13 @@ form button:hover, .btn:hover{
     height: 0.1rem;
     background-color: rgba(24, 14, 14, 0.191);
     margin: 0.5rem;
+}
+.nav-toggle {
+    display: none; 
+}
+.hidden-magnifying-glass {
+    display: inline-block;
+    cursor: pointer; /* 클릭할 수 있게 포인터로 변경 */
 }
 /* 반응형 */
 @media only screen and (max-width: 88rem) {

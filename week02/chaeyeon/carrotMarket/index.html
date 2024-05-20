@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>당신 근처의 당근
     </title>
+    <link rel="icon" type="image/x-icon" href="https://d1unjqcospf8gs.cloudfront.net/favicon_rebrand.ico">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -23,7 +24,11 @@
                 </div>
                 <form>
                     <input type="search" id="search" name="search" placeholder="물품이나 동네를 검색해보세요">
-                    <div class="hidden-magnifying-glass"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <input type="checkbox" id="navToggle" class="nav-toggle">
+                        <label for="navToogle" class="hidden-magnifying-glass">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </label>
+                    </input>
                     <button type="submit">채팅하기</button>
                     <div class="hidden-bar"><i class="fa-solid fa-bars"></i></div>
                 </form>
