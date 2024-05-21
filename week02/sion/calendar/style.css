@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #prevBtn, #nextBtn{
+    background-color: #a9eefb;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 20px;
+  }
+
+  .calendarContainer {
+    width: 500px;
+    height: 500px;
+    margin: 30px auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    background-color: #ddfaff;
+    border-radius: 10px;
+  }
+  
+  .calendarHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .calendarHeaderCenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    font-weight: bold;
+    padding-bottom: 5px;
+  }
+  .day {
+    padding: 5px;
+  }
+  /* 토요일 색 */
+  .date:nth-child(7n), .day:nth-child(7n) {
+    color: rgb(148, 191, 255);
+}
+ /* 일요일 색 */
+ .date:nth-child(7n+1), .day:nth-child(7n+1) {
+    color: rgb(255, 148, 148);
+}
+  .calendarDates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 5px;
+  }
+  
+  .date {
+    padding: 5px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  
+  .date:hover {
+    background-color: #ffffff;
+ }

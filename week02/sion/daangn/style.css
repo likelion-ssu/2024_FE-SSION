@@ -1,0 +1,255 @@
+.layout {
+    display: grid;
+    grid-template-columns: 10vw 12vw 56vw 12vw 10vw;
+}
+
+/* header */
+#header {
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo {
+    width: 80px;
+    height: 40px;
+}
+#headerMenu {
+    display: flex;
+    margin-left: 150px;
+}
+#headerMenu > ul{
+    list-style: none;
+    display: flex;
+}
+#headerMenu > ul > li {
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+#headerSearch {
+    margin-right: 200px;
+}
+#search {
+    background-color: rgb(214, 214, 214);
+    width: 250px;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#chatBtn {
+    width: 80px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: white;
+}
+
+/* main */
+#main {
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+/* download */
+#download {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFAE0;
+
+}
+#download > img {
+    height: 100vh;
+}
+#downloadComment {
+    margin: 180px;
+}
+#downloadComment > h1 {
+    font-size: 50px;
+}
+#downloadComment > p {
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+}
+
+#downloadBtnSection {
+    display: flex;
+
+}
+.downloadBtn {
+    background-color: rgb(255, 106, 0);
+    color: white;
+    font-weight: 600;
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+/* main 전체적인 틀 */
+.mainSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.mainSection > img {
+    height: 100vh;
+}
+.mainTitle {
+    color: rgb(255, 106, 0);
+    font-size: 18px;
+    font-weight: 600;
+}
+.mainComment {
+    margin: 150px;
+}
+.mainComment > h1 {
+    font-size: 40px;
+}
+
+.mainContent {
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+}
+.mainBtn {
+    padding: 13px;
+    background-color: rgb(210, 210, 210);
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 5px;
+}
+.mainBtnSection {
+    display: flex;
+}
+/* 중고거래 */
+#deal {
+    background-color: #F9F9F9;
+}
+/* 동네생활 */
+#life {
+    background-color: #FFF8F1;
+}
+.lifeIcon {
+    background-color: rgb(253, 189, 144);
+    color: rgb(255, 106, 0);
+    font-size: 30px;
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.infoTitle {
+    font-size: 14px;
+    font-weight: 500;
+}
+.lifeInfo {
+    margin: 20px;
+}
+.info {
+    font-size: 13px;
+    color: gray;
+}
+.lifeInfoSection {
+    display: flex;
+}
+/* 알바 */
+#job {
+    background-color: #F9F9F9;
+}
+/* 동네업체 */
+#market {
+    background-color: #F6FDEB;
+}
+
+/* menu */
+#menu {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    display: flex;
+    padding-top: 40px;
+}
+#menuUl {
+    display: flex;
+    font-size: 14px;
+    margin-right: 50px;
+}
+#menuUl > ul {
+    list-style: none;
+}
+#menuUl > ul > li{
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+#menuDownload > p {
+    font-weight: 500;
+}
+#menuDownloadbtnSection {
+    display: flex;
+}
+.menudownloadBtn {
+    background-color: rgb(211, 211, 211);
+    font-weight: 600;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+/* footer */
+#footer {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    font-size: 14px;
+    font-weight: 300;
+    color: gray;
+}
+.footerBold {
+    font-weight: 500;
+}
+
+.footerMenu > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.footerMenu > ul > li {
+    margin-right: 20px;
+}
+#footerIcon{
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+}
+.fa-facebook, .fa-instagram, .fa-youtube, .fa-comment {
+    margin-right: 15px;
+}
+#footerAlign {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#coSelect {
+    border: 0px;
+}
