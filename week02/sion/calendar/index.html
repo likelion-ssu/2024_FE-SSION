@@ -4,30 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/455c79571e.js" crossorigin="anonymous"></script>
     <title>calendar</title>
 </head>
 <body>
-    <div class="calender">
-        <div class="header">
-          <button class="prevMonthBtn" onclick="preMonth()">prev</button>
-          <div class="title">
-            <div class="yearTitle"></div>
-            <div class="monthTitle"></div>
-          </div>
-          <button class="nextMonthBtn" onclick="nextMonth()">next</button>
+    <div class="calendarContainer">
+        <div class="calendarHeader">
+          <button id="prevBtn"><i class="fa-solid fa-caret-left"></i></button>
+          <h2 id="currentMonth"></h2>
+          <button id="nextBtn"><i class="fa-solid fa-caret-right"></i></button>
         </div>
-        <div class="main">
-          <div class="days">
-            <div class="day">Sun</div>
-            <div class="day">Mon</div>
-            <div class="day">Tue</div>
-            <div class="day">Wed</div>
-            <div class="day">Thu</div>
-            <div class="day">Fri</div>
-            <div class="day">Sat</div>
-          </div>
-          <div class="dates"></div>
+        <div class="days">
+          <div class="day">SUN</div>
+          <div class="day">MON</div>
+          <div class="day">TUE</div>
+          <div class="day">WED</div>
+          <div class="day">THU</div>
+          <div class="day">FRI</div>
+          <div class="day">SAT</div>
         </div>
+        <div class="calendarDates" id="calendarDates"></div>
       </div>
     <script src="./index.js"></script>
 </body>
