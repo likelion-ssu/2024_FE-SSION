@@ -250,9 +250,6 @@
     flex-direction: row;
     justify-content: space-between;
 }
-#footerInfo > p{
-    gap: 10px;
-}
 #coSelect {
     border: 0px;
 }
