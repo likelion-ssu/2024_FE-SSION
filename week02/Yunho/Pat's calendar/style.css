@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 auto;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.calendar_container {
+  display: flex;
+  background-color: #e0e5ba;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  border: none;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.09), 0 4px 2px rgba(0, 0, 0, 0.09),
+    0 8px 4px rgba(0, 0, 0, 0.09), 0 16px 8px rgba(0, 0, 0, 0.09),
+    0 32px 16px rgba(0, 0, 0, 0.09);
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.calendar_header {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: 15px 0px;
+  color: #173223;
+}
+
+.calendar_days {
+  display: flex;
+  width: 100%;
+  background-color: #125f51;
+}
+
+.day {
+  color: #e0e5ba;
+  width: calc(100% / 7);
+  text-align: center;
+}
+
+#Saturday {
+  color: orange;
+}
+
+#Sunday {
+  color: red;
+}
+
+.dates {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.date {
+  width: calc(100% / 7);
+  text-align: center;
+  margin: 3px 0px;
+}
+
+.this {
+  color: black;
+}
+
+.other {
+  font-weight: 300;
+  color: gray;
+}
+
+.today {
+  color: #2b97c8;
+  padding: 0px 3px;
+  border-radius: 5px;
+  background-color: #c7caa5;
+}
+
+@media screen {
+  
+}
