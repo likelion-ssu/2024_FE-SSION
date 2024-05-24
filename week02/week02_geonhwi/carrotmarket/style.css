@@ -165,7 +165,7 @@
   height: 75rem;
 }
 
-.home_near_content {
+.home_story_content {
   display: flex;
   align-items: center;
 }
@@ -230,4 +230,38 @@
   font-size: 2rem;
   margin-top: 2rem;
   padding: 1.2rem 2rem;
+}
+
+.home_main_section_five {
+  width: 100%;
+  height: 75rem;
+  background-color: #f6fdec;
+}
+
+.home_main_section_five img {
+  width: 60rem;
+  height: 65rem;
+  padding-left: 6rem;
+}
+
+.home_near_content {
+  display: flex;
+  align-items: center;
+  padding: 10rem 0 0 25rem;
+}
+
+.home_main_content_five button {
+  width: 20rem;
+  height: 4.7rem;
+  border-radius: 1rem;
+  border-width: 0.1rem;
+  background-color: #e9ecef;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 2rem;
+  padding: 1.2rem 2rem;
+}
+
+.footerBold {
+  font-weight: 500;
 }
