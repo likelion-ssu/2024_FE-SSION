@@ -262,6 +262,51 @@
   padding: 1.2rem 2rem;
 }
 
-.footerBold {
-  font-weight: 500;
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 35rem 10rem 35rem;
+}
+
+.footer_first {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer_column li {
+  margin-bottom: 1rem;
+  margin-right: 5rem;
+  font-size: 2rem;
+}
+
+.btn_div {
+  display: flex;
+  gap: 2rem;
+}
+
+.app_download p {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.app_download button {
+  width: 18rem;
+  height: 4.7rem;
+  border-radius: 1rem;
+  border-width: 0.1rem;
+  background-color: #e9ecef;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 2rem;
+  padding: 1.2rem 2rem;
+}
+
+.footer_info {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 10rem;
+}
+
+.footer_info p {
+  margin-bottom: 3rem;
 }
