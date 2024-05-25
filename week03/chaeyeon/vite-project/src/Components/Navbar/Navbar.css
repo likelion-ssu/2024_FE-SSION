@@ -1,0 +1,21 @@
+.flex-div{
+    display: flex;
+    height: 2rem;
+    justify-content: space-between;
+    align-items:center;
+    gap:0.5rem;
+    margin: 0.5rem;
+}
+.logo{
+    height: 2rem;
+}
+.nav-right >img{
+    height: 2rem;
+}
+input{
+    border: none;
+    all: unset;
+}
+.user-icon{
+    border-radius: 50%;
+}
