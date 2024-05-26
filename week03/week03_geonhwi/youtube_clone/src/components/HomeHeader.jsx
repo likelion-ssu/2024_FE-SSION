@@ -42,7 +42,7 @@ const HomeHeaderWrapper = styled.section`
   display: flex;
   width: 100%;
   height: 5.6rem;
-  padding: 0 3rem;
+  padding: 0 4rem;
 `;
 
 const HomeHeaderSideContainer = styled.div`
@@ -63,7 +63,7 @@ const Customicon = styled(FontAwesomeIcon)`
 const FontAwesomeIcons = styled(FontAwesomeIcon)`
   display: flex;
   height: 4rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
   color: red;
 `;
 
