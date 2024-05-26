@@ -1,5 +1,5 @@
 .sidebar{
-    width: 12rem;
+    width: 15rem;
     position: sticky;
     bottom: 0;
 }
@@ -20,7 +20,7 @@
 }
 
 .divider {
-    width: 12rem;
+    width: 15rem;
     height: 1px;
     background-color:gray;
     opacity: 0.5;

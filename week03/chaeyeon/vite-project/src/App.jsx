@@ -14,7 +14,7 @@ export const App = () => {
         <div className="app-sidebar">
           <Sidebar/>
         </div>
-        <Main/>
+        <div className='main-content'><Main/></div>
       </div>
     </div>
   )
