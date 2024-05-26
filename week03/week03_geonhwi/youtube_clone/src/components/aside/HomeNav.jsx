@@ -48,7 +48,7 @@ const HomeNavContainer = styled.section`
   gap: 1rem;
 
   padding-top: 3rem;
-  padding-left: 3rem;
+  padding-left: 1rem;
 `;
 
 const HomeNavList = styled.button`
@@ -56,7 +56,7 @@ const HomeNavList = styled.button`
   justify-content: flex-start;
   align-items: center;
 
-  width: 20rem;
+  width: 16rem;
   height: 3rem;
 
   border: none;
