@@ -23,6 +23,10 @@ input{
     border: 1px solid #ccc;
     padding: 0.2rem 1rem;
     border-radius: 2.5rem;
+    display: flex;
+    width: 25rem;
+    justify-content: space-between;
+    align-items: center;
 }
 .navbar{
     position:sticky;
