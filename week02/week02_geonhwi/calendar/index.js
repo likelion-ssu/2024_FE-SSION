@@ -45,11 +45,11 @@ function buildCalender() {
 }
 
 function prevCal() {
-  currentDate.setMonth(CDate.getMonth() - 1);
+  currentDate.setMonth(currentDate.getMonth() - 1);
   buildCalender();
 }
 
 function nextCal() {
-  currentDate.setMonth(CDate.getMonth() + 1);
+  currentDate.setMonth(currentDate.getMonth() + 1);
   buildCalender();
 }
