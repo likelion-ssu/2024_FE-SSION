@@ -21,12 +21,10 @@
     "sourceType": "module"
   },
   "ignorePatterns": ["build", "dist", "public"],
-
   "rules": {
-    "react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }],
+    "react/jsx-filename-extension": ["warn", { "extensions": [".jsx", ".tsx"] }],
     "react/react-in-jsx-scope": "off",
     "react/jsx-uses-react": "off",
-
     "no-duplicate-imports": "error",
     "no-console": ["warn", { "allow": ["warn", "error", "info"] }],
     "no-unused-vars": "error",
@@ -39,7 +37,6 @@
     "arrow-parens": ["error", "always"],
     "no-multi-spaces": "error",
     "import/no-unresolved": "off",
-
     "import/order": [
       "error",
       {
