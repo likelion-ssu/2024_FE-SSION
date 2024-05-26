@@ -1,2 +1,10 @@
 /*reset css*/
 @import url("./reset.css");
+
+@font-face {
+  font-family: "YangjuByeolsanA1";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2405@1.0/YangjuByeolsanA1.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
