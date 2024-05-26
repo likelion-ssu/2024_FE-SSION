@@ -8,14 +8,16 @@ import profile_icon from "../../assets/user_profile.jpg"
 
 export const Navbar = () => {
   return (
-    <nav className='flex-div'>
+    <nav className='flex-div navbar'>
         <div className='nav-left flex-div'>
             <i className="fa-solid fa-bars menu-icon"></i>
             <img className='logo' src={logo} alt="" />
         </div>
         <div className="nav-middle flex-div">
-            <input type='text' placeholder='Search'></input>
-            <i className="fa-solid fa-magnifying-glass"></i>
+            <div className='search-box'>
+              <input type='text' placeholder='Search'></input>
+              <i className="fa-solid fa-magnifying-glass"></i>
+            </div>
         </div>
         <div className='nav-right flex-div'>
             <img src={upload_icon} alt="" />

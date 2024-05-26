@@ -1,0 +1,22 @@
+.sidebar{
+    width: 12rem;
+    position: sticky;
+    bottom: 0;
+}
+.sidebar-item img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1.5rem;
+}
+.sidebar-item{
+    align-items: center;
+    display: flex;
+    margin: 1rem 0.7rem;
+}
+.divider {
+    width: 12rem;
+    height: 1px;
+    background-color:gray;
+    opacity: 0.5;
+    margin: 10px 0; 
+  }
