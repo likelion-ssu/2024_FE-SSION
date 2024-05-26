@@ -8,6 +8,7 @@
 }
 .logo{
     height: 2rem;
+    margin-left: 1.2rem;
 }
 .nav-right >img{
     height: 2rem;
@@ -29,7 +30,6 @@ input{
     align-items: center;
 }
 .navbar{
-    position:sticky;
     top:0;
     z-index: 10;
     

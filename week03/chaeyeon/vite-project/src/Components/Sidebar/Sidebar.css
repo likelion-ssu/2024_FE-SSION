@@ -11,8 +11,14 @@
 .sidebar-item{
     align-items: center;
     display: flex;
-    margin: 1rem 0.7rem;
+    padding: 0.5rem 0rem;
+    margin: 0.5rem 0.7rem;
+    border-radius: 1rem;
 }
+.sidebar-item:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
 .divider {
     width: 12rem;
     height: 1px;

@@ -1,0 +1,50 @@
+.button-bar {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.button-bar button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #ddd;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    height: 2rem;
+}
+.button-bar button:hover{
+    background-color: #3b3939c1;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+   
+  }
+.thumbnail {
+    width: 100%;
+    height: auto;
+}
+.profile{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.video-info{
+    display: flex;
+    flex-direction: column;
+}
+.video-item{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    border-radius: 0.2rem;
+}
+.video-item:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.video-title{
+    display: flex;
+    align-items: flex-start;
+    margin: 1rem 0;
+}

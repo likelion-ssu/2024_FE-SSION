@@ -1,11 +1,9 @@
 import React from 'react';
 import './Sidebar.css';
 import home from '../../assets/home.png';
-import shorts from '../../assets/shorts.png';
 import history from '../../assets/history.png';
 import music from '../../assets/music.png';
 import like from '../../assets/like.png';
-import watchlater from '../../assets/watchlater.png';
 import subscription from '../../assets/subscription.png'; 
 import explore from '../../assets/explore.png'; 
 
@@ -18,7 +16,7 @@ export const Sidebar = () => {
         <span>홈</span>
       </div>
       <div className="sidebar-item">
-        <img src={shorts} alt="shorts icon" />
+        <img src={explore} alt="shorts icon" />
         <span>Shorts</span>
       </div>
       <div className="sidebar-item">
@@ -35,7 +33,7 @@ export const Sidebar = () => {
         <span>재생목록</span>
       </div>
       <div className="sidebar-item">
-        <img src={watchlater} alt="watch later icon" />
+        <img src={explore} alt="watch later icon" />
         <span>나중에 볼 동영상</span>
       </div>
       <div className="sidebar-item">

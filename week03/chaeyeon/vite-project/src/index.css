@@ -6,7 +6,18 @@ cursor: pointer;
     margin-bottom: 1rem;
 }
 .app-sidebar{
-    overflow-y: scroll;
+    overflow-y: hidden;
     overflow-x: hidden;
-    width: 13rem;
+    width: 25%;
+    margin-right: 1rem;
 }
+.app-sidebar:hover{
+    overflow-y: scroll;
+
+}
+.sidebar-main-wrapper{
+    display: flex;
+}
+/* .app-navbar ,.app-sidebar{
+    position: fixed;
+} */
