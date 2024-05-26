@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import HorizonLine from "./common/HorizonLine";
+import HorizonLine from "../common/HorizonLine";
 
 function HomeNav() {
   return (

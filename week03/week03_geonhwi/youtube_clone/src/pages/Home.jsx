@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
-import HomeHeader from "../components/HomeHeader";
-import HomeHeaderBottom from "../components/HomeHeaderBottom";
-import HomeNav from "../components/HomeNav";
+import HomeHeader from "../components/Header/HomeHeader";
+import HomeHeaderBottom from "../components/Header/HomeHeaderBottom";
+import HomeNav from "../components/aside/HomeNav";
+import HomeMainSection from "../components/Main/HomeMainSection";
 
 function Home() {
   return (
@@ -10,7 +11,10 @@ function Home() {
       <HomeHeader />
       <HomeContainer>
         <HomeNav />
-        <HomeHeaderBottom />
+        <HomeDiv>
+          <HomeHeaderBottom />
+          <HomeMainSection />
+        </HomeDiv>
       </HomeContainer>
     </HomeWrapper>
   );
@@ -27,4 +31,9 @@ const HomeWrapper = styled.main`
 const HomeContainer = styled.div`
   display: flex;
   width: 100%;
+`;
+
+const HomeDiv = styled.div`
+  display: flex;
+  flex-direction: column;
 `;
