@@ -25,6 +25,48 @@ const videoData=[
       views:"조회수 3.8만",
       uploaded:"3일전"
   },
+  {
+    id:4,
+    title:"3아빠 기다리다 렉걸린 강아지",
+    channel:"속삭이는 몽자",
+    views:"조회수 3.8만",
+    uploaded:"3일전"
+},
+{
+  id:5,
+  title:"3아빠 기다리다 렉걸린 강아지",
+  channel:"속삭이는 몽자",
+  views:"조회수 3.8만",
+  uploaded:"3일전"
+},
+{
+  id:6,
+  title:"3아빠 기다리다 렉걸린 강아지",
+  channel:"속삭이는 몽자",
+  views:"조회수 3.8만",
+  uploaded:"3일전"
+},
+{
+  id:7,
+  title:"3아빠 기다리다 렉걸린 강아지",
+  channel:"속삭이는 몽자",
+  views:"조회수 3.8만",
+  uploaded:"3일전"
+},
+{
+  id:8,
+  title:"3아빠 기다리다 렉걸린 강아지",
+  channel:"속삭이는 몽자",
+  views:"조회수 3.8만",
+  uploaded:"3일전"
+},
+{
+  id:9,
+  title:"3아빠 기다리다 렉걸린 강아지",
+  channel:"속삭이는 몽자",
+  views:"조회수 3.8만",
+  uploaded:"3일전"
+},
   
 ]
 
@@ -51,7 +93,7 @@ export const Main = () => {
         <button>새로운 맞춤 동영상</button>
       </div>
       <div className="grid">
-      {/*  */}
+      {/* map 배열의 각 요소에 대해 제공된 함수를 호출하고(여기선 jsx파일 반환), 그 결과를 모아 새로운 배열을 반환 */}
         {videos.map(video => (
           <div className="video-item" key={video.id}>
             <img src={thumbnail} alt="thumbnail" className="thumbnail" />
