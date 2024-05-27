@@ -1,0 +1,82 @@
+/* Sidebar.css */
+.sidebar {
+  width: 240px;
+  background-color: transparent;
+  color: black;
+  padding: 10px;
+}
+
+.sidebar__logo {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  gap: 5px;
+  align-items: center;
+}
+
+.sidebar_img {
+  height: 45px;
+  width: auto;
+}
+
+.sidebar_nav_menu {
+  list-style: none;
+  padding: 0;
+  border-bottom: 1px solid #edecec;
+}
+
+#sidebar_home_selected {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 8px;
+}
+
+.sidebar_nav_myMenu {
+  list-style: none;
+  padding: 0;
+  border-bottom: 1px solid #edecec;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar_header {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 15px 5px 10px 10px;
+  text-align: left;
+}
+
+.menu_menuWrapper {
+  padding: 10px 4px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.myMenu_icon {
+  height: 28px;
+  width: auto;
+  margin-right: 20px;
+}
+
+.myMenu_text {
+  font-size: 15px;
+}
+
+.menu_subWrapper {
+  padding: 10px 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.subscript_channel {
+  margin-right: 50px;
+  font-size: 14px;
+}
+
+.myMenu_subscriptIcon {
+  height: 35px;
+  width: auto;
+  margin-right: 10px;
+}
