@@ -48,7 +48,6 @@ const HomeNavContainer = styled.section`
   gap: 1rem;
 
   padding-top: 3rem;
-  padding-left: 1rem;
 `;
 
 const HomeNavList = styled.button`

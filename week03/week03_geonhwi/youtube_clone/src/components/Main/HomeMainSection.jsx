@@ -1,22 +1,20 @@
+import React from "react";
 import styled from "styled-components";
+import { mainConstants } from "../constants/mainConstants";
 
 function HomeMainSection() {
-  const images = [
-    "/src/assets/img/img_screen_1.png",
-    "/src/assets/img/img_screen_2.png",
-    "/src/assets/img/img_screen_3.png",
-    "/src/assets/img/img_screen_4.png",
-    "/src/assets/img/img_screen_5.png",
-    "/src/assets/img/img_screen_6.png",
-  ];
-
   return (
     <HomeMainWrapper>
       <HomeMainContainer>
-        {images.map((src, index) => (
-          <ImageWrapper key={index}>
-            <img src={src} alt={`img-${index}`} />
-          </ImageWrapper>
+        {mainConstants.map((item) => (
+          <Card key={item.id}>
+            <img src={item.imgSrc} alt={`img-${item.id}`} />
+            <CardContent>
+              <Title>{item.title}</Title>
+              <Place>{item.place}</Place>
+              <EndTime>{item.endTime}</EndTime>
+            </CardContent>
+          </Card>
         ))}
       </HomeMainContainer>
     </HomeMainWrapper>
@@ -29,6 +27,7 @@ const HomeMainWrapper = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 3rem;
   width: 100%;
   height: 100%;
 `;
@@ -36,21 +35,43 @@ const HomeMainWrapper = styled.section`
 const HomeMainContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
   gap: 1rem;
-  width: 100%;
-  height: 100%;
+  width: 95%;
+  height: 105%;
+  margin-top: 8rem;
 `;
 
-const ImageWrapper = styled.div`
+const Card = styled.div`
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 8px;
   overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
   img {
     width: 100%;
     height: auto;
-    object-fit: cover;
   }
+`;
+
+const CardContent = styled.div`
+  padding: 1rem;
+`;
+
+const Title = styled.h3`
+  font-size: 1rem;
+  margin: 0;
+`;
+
+const Place = styled.p`
+  font-size: 0.875rem;
+  color: #555;
+  margin: 0.5rem 0 0 0;
+`;
+
+const EndTime = styled.p`
+  font-size: 0.75rem;
+  color: #999;
+  margin: 0.5rem 0 0 0;
 `;
