@@ -6,6 +6,17 @@
   padding: 10px;
 }
 
+.sidebar li {
+  transition: border 0.1s, background-color 0.1s, color 0.1s;
+  box-sizing: border-box;
+}
+
+.sidebar li:hover {
+  border: 2px solid #f2f2f2;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+}
+
 .sidebar__logo {
   display: flex;
   flex-direction: row;
