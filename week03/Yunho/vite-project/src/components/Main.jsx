@@ -1,14 +1,14 @@
-import styled from 'styled-components';
-import MainSection from './MainSection';
-import content_img01 from '../assets/content_Img/content_img01.jpg';
-import content_img02 from '../assets/content_Img/content_img02.jpg';
-import content_img03 from '../assets/content_Img/content_img03.jpg';
-import content_img04 from '../assets/content_Img/content_img04.jpg';
-import content_img05 from '../assets/content_Img/content_img05.jpg';
-import content_img06 from '../assets/content_Img/content_img06.jpg';
-import content_img07 from '../assets/content_Img/content_img07.jpg';
-import content_img08 from '../assets/content_Img/content_img08.jpg';
-import content_img09 from '../assets/content_Img/content_img09.jpg';
+import styled from "styled-components";
+import MainSection from "./MainSection";
+import content_img01 from "../assets/content_Img/content_img01.jpg";
+import content_img02 from "../assets/content_Img/content_img02.jpg";
+import content_img03 from "../assets/content_Img/content_img03.jpg";
+import content_img04 from "../assets/content_Img/content_img04.jpg";
+import content_img05 from "../assets/content_Img/content_img05.jpg";
+import content_img06 from "../assets/content_Img/content_img06.jpg";
+import content_img07 from "../assets/content_Img/content_img07.jpg";
+import content_img08 from "../assets/content_Img/content_img08.jpg";
+import content_img09 from "../assets/content_Img/content_img09.jpg";
 
 const StyledMain = styled.main`
   display: grid;

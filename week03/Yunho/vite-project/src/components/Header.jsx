@@ -1,10 +1,10 @@
-import styled from 'styled-components';
-import hamburgerIcon from '../assets/png/002-hamburger.png';
-import searchIcon from '../assets/png/026-search-interface-symbol.png';
-import voiceIcon from '../assets/png/027-mic.png';
-import createIcon from '../assets/png/005-video.png';
-import alarmIcon from '../assets/png/028-bell.png';
-import accountIcon from '../assets/png/020-youtube-kids.png'
+import styled from "styled-components";
+import hamburgerIcon from "../assets/png/002-hamburger.png";
+import searchIcon from "../assets/png/026-search-interface-symbol.png";
+import voiceIcon from "../assets/png/027-mic.png";
+import createIcon from "../assets/png/005-video.png";
+import alarmIcon from "../assets/png/028-bell.png";
+import accountIcon from "../assets/png/020-youtube-kids.png";
 
 const StyledHeader = styled.header`
   position: fixed;

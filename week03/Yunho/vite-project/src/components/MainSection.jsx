@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Content = styled.div`
   max-width: 340px;
@@ -57,11 +57,13 @@ function MainSection(props) {
         <img className="main_img" src={img_src_main} alt="썸네일" />
         <div className="content-paragraph">
           <img className="sub_img" src={img_src_sub} alt="제작자 프로필" />
-          <div className='content-info'>
+          <div className="content-info">
             <h4>{title}</h4>
             <p>{creator}</p>
-            <p id='content-info-number'>
-              {views}<span>•</span>{time}
+            <p id="content-info-number">
+              {views}
+              <span>•</span>
+              {time}
             </p>
           </div>
         </div>

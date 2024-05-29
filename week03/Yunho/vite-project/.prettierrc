@@ -1,0 +1,8 @@
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "auto",
+  "tabWidth": 2,
+  "rangeStart": 0,
+  "rangeEnd": 0
+}
