@@ -1,97 +1,94 @@
 #layout {
-    display: grid;
-    grid-template-columns: 16vw 7vw 45vw 3vw 20vw 9vw;
-    grid-template-rows: 15vh 40vh 20vh 25vh;
+  display: grid;
+  grid-template-columns: 16vw 7vw 45vw 3vw 20vw 9vw;
+  grid-template-rows: 15vh 40vh 20vh 25vh;
 }
 
 /* header */
 
 #headerSection {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 5;
 
-    /* background-color: red; */
+  /* background-color: red; */
 
-    position: fixed;
-    width: 16vw;
-    height: 100vh;
-    border-right : thin solid rgb(180, 180, 180);
+  position: fixed;
+  width: 16vw;
+  height: 100vh;
+  border-right: thin solid rgb(180, 180, 180);
 
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 #logoImg {
-    width: 120px;
-    
+  width: 120px;
 }
 #headerSection > ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 #headerSection > ul :hover {
-    background-color: rgb(180, 180, 180);
-    border-radius: 10px;
+  background-color: rgb(180, 180, 180);
+  border-radius: 10px;
 }
 #headerSection > ul > img :hover {
-    
 }
 .menuList {
-    padding: 10px;
-    margin: 10px;
+  padding: 10px;
+  margin: 10px;
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.menuList> img {
-    width: 25px;
-    margin-right: 10px;
+.menuList > img {
+  width: 25px;
+  margin-right: 10px;
 }
 
-.menuList> i {
-    font-size: 23px;
-    margin-right: 10px;
+.menuList > i {
+  font-size: 23px;
+  margin-right: 10px;
 }
 #menuProfile {
-    border-radius: 50px;
-    border: thin solid rgb(180, 180, 180);
+  border-radius: 50px;
+  border: thin solid rgb(180, 180, 180);
 }
 
 /* story */
 #storySection {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
 
-    /* background-color: yellow; */
+  /* background-color: yellow; */
 
-    display: flex;
-    position: static;
-    /* align-items: center; */
+  display: flex;
+  position: static;
+  /* align-items: center; */
 
-    justify-content: center;
+  justify-content: center;
 }
 .storyProfile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- 
-    margin: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 7px;
 }
-.storyProfile > p { 
-    font-size: 13px;
+.storyProfile > p {
+  font-size: 13px;
 }
 .storyProfile > img {
-    border-radius: 50px;
-    width: 60px;
-    border: thin solid rgb(180, 180, 180);
+  border-radius: 50px;
+  width: 60px;
+  border: thin solid rgb(180, 180, 180);
 }
 
 /* .fa-circle-chevron-right {
@@ -100,186 +97,186 @@
 } */
 /* post */
 #postSection {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 5;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 5;
 
-    /* background-color: green; */
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  /* background-color: green; */
 
-    padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 10px;
 }
 .postTop {
-    width: 450px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 .postProfile {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 .postProfile > img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50px;
-    margin-right: 10px;
-    border: thin solid rgb(180, 180, 180);
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  margin-right: 10px;
+  border: thin solid rgb(180, 180, 180);
 }
 
 .postImg {
-    width: 450px;
-    border: thin solid rgb(180, 180, 180);
-    border-radius: 3px;
-    margin: 0px 5px 5px 0px;
+  width: 450px;
+  border: thin solid rgb(180, 180, 180);
+  border-radius: 3px;
+  margin: 0px 5px 5px 0px;
 }
 .postBold {
-    font-weight: 600;
+  font-weight: 600;
 }
 .postComment {
-    color: gray;
-    border-style: none;
-    width: 400px;
+  color: gray;
+  border-style: none;
+  width: 400px;
 }
 
 .postTime {
-    color: gray;
+  color: gray;
 }
 
 .postIcon {
-    width: 450px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.postLeftIcon > i , .postIcon > i {
-    font-size: 23px;
-    margin-right: 10px;
+.postLeftIcon > i,
+.postIcon > i {
+  font-size: 23px;
+  margin-right: 10px;
 }
 
 .postLine {
-    border-bottom : thin solid rgb(180, 180, 180);
-    width : 450px;
+  border-bottom: thin solid rgb(180, 180, 180);
+  width: 450px;
 }
 .postReaction {
-    width: 450px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 10px;
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 /* my profile */
 #myProfile {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between; 
-    width: 19vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 19vw;
 }
 #myName {
-    font-size: 14px;
-    color: gray;
+  font-size: 14px;
+  color: gray;
 }
 #myProfile > img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    border: thin solid rgb(180, 180, 180);
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: thin solid rgb(180, 180, 180);
 }
 #changeButton {
-    font-size: 13px;
-    color: rgb(98, 186, 241);
-    font-weight: 600;
-    margin-left: 20px;
+  font-size: 13px;
+  color: rgb(98, 186, 241);
+  font-weight: 600;
+  margin-left: 20px;
 }
 
 /* recommend */
 #recommendSection {
-    grid-column-start: 5;
-    grid-column-end: 6;
-    grid-row-start: 1;
-    grid-row-end: 3;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3;
 
-    /* background-color: blue; */
+  /* background-color: blue; */
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #recommendSection > ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 #recommendMent {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; 
-    width: 19vw;
-    height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 19vw;
+  height: 30px;
 }
 #recommendMentForYou {
-    font-size: 14px;
-    font-weight: 600;
-    color: gray;
-
+  font-size: 14px;
+  font-weight: 600;
+  color: gray;
 }
 #recommendMentAll {
-    font-size: 13px;
-    font-weight: 500;
+  font-size: 13px;
+  font-weight: 500;
 }
 /* 추천친구 목록 위치 수정 */
 .recommendProfile {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between; 
-    width: 19vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 19vw;
 }
 .profileGap {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    /* background-color: aqua; */
-    height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* background-color: aqua; */
+  height: 60px;
 }
 .profileGap > img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    border: thin solid rgb(180, 180, 180);
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: thin solid rgb(180, 180, 180);
 }
 
 .recommendM {
-    font-size: 13px;
-    color: gray;
+  font-size: 13px;
+  color: gray;
 }
 .followButton {
-    font-size: 13px;
-    color: rgb(98, 186, 241);
-    font-weight: 600;
-    margin-right: 10px;
+  font-size: 13px;
+  color: rgb(98, 186, 241);
+  font-weight: 600;
+  margin-right: 10px;
 }
 .profileName {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 /* footer */
 #footerSection {
-    grid-column-start: 5;
-    grid-column-end: 6;
-    grid-row-start: 3;
-    grid-row-end: 4;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
 
-    /* background-color: purple; */
-    padding: 10px;
+  /* background-color: purple; */
+  padding: 10px;
 }
 footer > p {
-    color: rgb(186, 186, 186);
-    font-size: 12px;
-    font-weight: 400;
+  color: rgb(186, 186, 186);
+  font-size: 12px;
+  font-weight: 400;
 }
