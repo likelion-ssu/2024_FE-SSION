@@ -1,0 +1,57 @@
+.header__logo {
+  display: flex;
+  padding: 1rem 2rem 0.9rem 2em;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+.header__menu {
+  padding: 10px 0;
+}
+
+header li {
+  margin-bottom: 5px;
+}
+
+.header__menu a {
+  font-size: 1rem;
+  display: block;
+  padding: 0.9rem 2rem 0.9rem 3.125rem;
+  margin: 0 0.625rem;
+  border-radius: 12px;
+  position: relative;
+  line-height: 1;
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.header__menu a:hover {
+  background: rgb(231, 231, 231);
+}
+
+.menu__text {
+  font-size: 1rem;
+  display: block;
+  padding: 0.9rem 2rem 0.9rem 2rem;
+  position: relative;
+  line-height: 1;
+  color: black;
+}
+
+.active {
+  background: rgb(231, 231, 231);
+}
+
+.header__menu svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  position: absolute;
+  left: 1.25rem;
+  top: 0.75rem;
+}
+
+.menu__div {
+  border-bottom: 1px solid rgb(195, 195, 195);
+  margin-bottom: 10px;
+}
