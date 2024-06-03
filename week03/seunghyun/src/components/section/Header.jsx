@@ -52,17 +52,17 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a href="/website">
+              <a href="/">
                 <LiaFileVideoSolid /> 재생목록
               </a>
             </li>
             <li>
-              <a href="/gsap">
+              <a href="/">
                 <LiaClock /> 나중에 볼 동영상
               </a>
             </li>
             <li>
-              <a href="/port">
+              <a href="/">
                 <LiaKissWinkHeart /> 좋아요 표시한 동영상
               </a>
             </li>
