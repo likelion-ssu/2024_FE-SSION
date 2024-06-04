@@ -1,0 +1,217 @@
+header{
+    width: 20%;
+    font-size:1rem;
+    position: relative;
+}
+a{
+    color: black;
+}
+button{
+    all: unset;
+    cursor: pointer;
+}
+header nav li{
+    padding: 1rem 0;
+    padding-bottom: 1rem; 
+    gap:0.5rem;  
+    width: 7rem;
+
+}
+header nav li:hover{
+    background-color: rgb(223, 220, 220);
+}
+
+header nav li i{
+    margin-right: 1rem;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    margin-left:3rem;
+    gap: 0.5rem;
+    position: fixed;
+   
+}
+header nav img{
+    width:7rem;
+    height: 3rem;
+    margin: 24px 0;
+}
+.hidden-nav-bar1 > img{
+    width:7rem;
+    height: 3rem;
+}
+.hidden-nav-bar1{
+    display: flex;
+    justify-content: space-around;
+    top:2.4rem;
+
+    align-items: center;
+    display: none;
+
+}
+.hidden-nav-bar2{
+    position:fixed;
+    bottom: 1rem;
+    width: 60%;
+
+    justify-content: space-evenly;
+    display:none
+}
+.post-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.post{
+    margin: 1rem 0;
+}
+.icons-wrapper{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.icons-wrapper >i{
+    margin-right: 1rem;
+}
+.class-for-margin{
+    margin-top: 0.5rem;
+}
+.icons-wrapper >div>i{
+    margin-left: 1rem;
+}
+.post-img{
+    width: 30rem;
+    height: 40rem;
+}
+.post-profile{
+    display: flex;
+    align-items: center;
+
+}
+.sidenav__logo{
+    width: 12rem;
+    margin: 2.5rem;
+}
+.left-down-container{
+    position: relative;
+    bottom:-5rem
+
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+section li div{
+    display: flex;
+    justify-content: center;
+}
+
+.profile-img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+
+main{
+    width: 60%;
+  
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    margin: 1.5rem;
+}
+header p{
+    margin: 3rem;
+}
+aside{
+    margin-top: 1.5rem;
+   
+}
+aside div{
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+aside div div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 2rem;
+    gap:0.2rem
+}
+footer div p{
+    margin-top: 0.5rem;
+}
+.right-container{
+    width: 22%;
+   
+}
+.whole-container{
+    display: flex;
+    
+}
+.follower-recommendation{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.font-blue{
+    color: blue;
+}
+.font-gray{
+    color: gray;
+}
+.fontsize-s{
+    size: 0.3rem;
+}
+.side-bar{
+    display: flex;
+    gap:0.2rem
+}
+/* 반응형 */
+.hidden-logo-wrapper{ 
+    width:7rem;
+    height: 3rem;
+    margin: 4.8rem 0 0 0;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+@media screen and (max-width:76.8rem){
+   .right-container{
+        display: none;
+    }
+}
+@media screen and (max-width:80rem){
+    .side-bar-menu ,header> nav>img{
+         display: none;
+     }
+     .hidden-logo-wrapper{
+        display: flex;
+     }
+ }
+ @media screen and (max-width:50rem){
+    header>nav{
+         display: none;
+     }
+     .hidden-nav-bar1,.hidden-nav-bar2{
+        display:flex;
+        position: fixed;
+     }
+     section{
+        margin-top: 5rem;
+     }
+     .profile-hidden{
+        display: none;
+     }
+ }
