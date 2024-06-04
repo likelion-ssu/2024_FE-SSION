@@ -1,13 +1,14 @@
-.main{
-  padding-top: 80px;
+.main {
+  padding-top: 100px;
 }
 .card-frame {
   margin-top: 40px;
+  margin-left: 40px;
   display: inline-flex;
   flex-direction: column;
-  padding: 35px 34px 0px 34px;
   background-color: rgb(255, 255, 255);
   gap: 20px;
+  cursor: pointer;
 }
 
 .card {
@@ -21,8 +22,13 @@
   width: 300px;
   height: 150px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 16px;
   background-color: grey;
+  transition: all 1s;
+}
+
+.card-img:hover {
+  border-radius: 0;
 }
 
 .card-text {
@@ -50,7 +56,6 @@
   overflow: hidden;
   color: #000;
 
-  
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
