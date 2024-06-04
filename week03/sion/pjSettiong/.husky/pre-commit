@@ -1,4 +1,1 @@
-#!/bin/sh
-. "$(dirname "$0")/husky.sh"
-
-yarn lint 
+cd pjSettiong && yarn lint 
