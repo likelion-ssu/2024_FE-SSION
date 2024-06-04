@@ -3,8 +3,8 @@ import Sidebar from "./Sidebar";
 import Header from "./Header";
 import Content from "./Content";
 import Filter from "./Filter";
-import "./App.css";
-import "./reset.css";
+import "./styles/App.css";
+import "./styles/reset.css";
 
 function App() {
   return (

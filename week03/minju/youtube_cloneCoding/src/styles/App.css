@@ -2,6 +2,7 @@
   width: 100%;
   margin: 0 auto;
   text-align: center;
+  background-color: white;
 }
 
 .logo {
@@ -38,13 +39,13 @@
 
 .read-the-docs {
   color: #888;
+  background-color: white;
 }
 
 /* src/css/App.css */
 .app {
   display: flex;
-  height: 100vh;
-  background-color: transparent;
+  background-color: white;
 }
 
 .main {

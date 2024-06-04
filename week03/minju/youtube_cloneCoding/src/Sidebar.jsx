@@ -1,5 +1,5 @@
 import React from "react";
-import "./Sidebar.css";
+import "./styles/Sidebar.css";
 import header_1 from "./assets/header_1.png";
 import header_2 from "./assets/header_2.png";
 import menu_home from "./assets/menu_home.png";

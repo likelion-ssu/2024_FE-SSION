@@ -1,12 +1,12 @@
 import React from "react";
-import VideoCard from "./VideoCard";
-import "./Content.css";
-import thumb1 from "./assets/content/content1.png";
-import thumb2 from "./assets/content/content2.png";
-import thumb3 from "./assets/content/content3.png";
-import thumb4 from "./assets/content/content4.png";
-import thumb5 from "./assets/content/content5.png";
-import thumb6 from "./assets/content/content6.png";
+import VideoCard from "./components/VideoCard";
+import "./styles/Content.css";
+import thumb1 from "././assets/content/content1.png";
+import thumb2 from "././assets/content/content2.png";
+import thumb3 from "././assets/content/content3.png";
+import thumb4 from "././assets/content/content4.png";
+import thumb5 from "././assets/content/content5.png";
+import thumb6 from "././assets/content/content6.png";
 
 function Content() {
   const videos = [

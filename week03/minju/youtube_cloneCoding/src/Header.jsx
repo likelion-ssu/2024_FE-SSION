@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+import "./styles/Header.css";
 import search_voice from "./assets/search_voice.png";
 import myLogo from "./assets/profile_my.png";
 import newVideo from "./assets/profile_newVideo.png";

@@ -1,6 +1,6 @@
 import React from "react";
-import "./VideoCard.css";
-import uploader from "./assets/content/uploader.png";
+import "../styles/VideoCard.css";
+import uploader from "../assets/content/uploader.png";
 
 function VideoCard({ video }) {
   return (
