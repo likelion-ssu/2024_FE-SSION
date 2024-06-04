@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "postinstall": "cd .. && husky pjsettiong/.husky",
+    "postinstall": "cd .. && husky pjSettiong/.husky",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable"
   },
