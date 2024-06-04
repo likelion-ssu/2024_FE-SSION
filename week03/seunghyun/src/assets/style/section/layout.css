@@ -1,0 +1,16 @@
+#header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 260px;
+  height: 100%;
+  z-index: 10000;
+  background-color: #ffffff;
+}
+
+#main {
+  min-height: 100vh;
+  margin: 0 auto;
+  padding-left: 260px;
+  background-color: #ffffff;
+}

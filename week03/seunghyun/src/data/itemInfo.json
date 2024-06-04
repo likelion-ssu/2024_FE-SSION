@@ -1,0 +1,52 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "img1": "https://yt3.ggpht.com/aW-CCbaQ2rbDrEvmpjf630Xhh4wiXEAYs_vZuhX7t3T7tqohQGYl1YzpWNORdJwPin6SMtstyw=s88-c-k-c0x00ffffff-no-rj",
+      "img2": "https://img.youtube.com/vi/vLldpdlsfGU/0.jpg",
+      "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 설레는 겨울의 분위기를 담은 따뜻하고 포근한 겨울 노래 모음 winter vibes ‧₊˚.",
+      "author": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
+      "views": "1278"
+    },
+    {
+      "id": 2,
+      "img1": "https://yt3.googleusercontent.com/gnbapxR_txm3jiwpcCWU1HHcMPVi2Y1AE2MwwfA-a6Scvaq8U0zMvV_LUGfppuMaUVv-qcJ7mA=s160-c-k-c0x00ffffff-no-rj",
+      "img2": "https://img.youtube.com/vi/PL0HipTuWVI/0.jpg",
+      "title": "백예린과 바다의 윤슬 (playlist)",
+      "author": "리플레이LEEPLAY",
+      "views": "20"
+    },
+    {
+      "id": 3,
+      "img1": "https://yt3.ggpht.com/aW-CCbaQ2rbDrEvmpjf630Xhh4wiXEAYs_vZuhX7t3T7tqohQGYl1YzpWNORdJwPin6SMtstyw=s88-c-k-c0x00ffffff-no-rj",
+      "img2": "https://img.youtube.com/vi/3YRTxyn84mk/0.jpg",
+      "title": "[playlist] 잔잔한 오후 카페에서 듣기 좋은 노래 ♬",
+      "author": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
+      "views": "331"
+    },
+    {
+      "id": 4,
+      "img1": "https://yt3.googleusercontent.com/PZsvaSAGHNaLhsQ4L-_pzbZznJMuRyJCYUDI6ln0eYYTZSQrLurcR8R1FrAwWWeBryOSOAzSGA=s160-c-k-c0x00ffffff-no-rj",
+      "img2": "https://img.youtube.com/vi/_ZXukVVhHOo/0.jpg",
+      "title": "평화로운 비오는 날 🌧 편안한 비디오 게임 음악은 공부와 일에 대한 불안감을 진정시켜줍니다.",
+      "author": "Fancy Fox Gaming",
+      "views": "434"
+    },
+    {
+      "id": 5,
+      "img1": "https://yt3.googleusercontent.com/ytc/AIdro_m4E0XrMyETpLr4rqV45mYzr9rvfVqkQm-3cRRRMDk9jw=s160-c-k-c0x00ffffff-no-rj",
+      "img2": "https://img.youtube.com/vi/05uFo_-SGXU/0.jpg",
+      "title": "React JS #1 강의 소개 - 초보자를 위한 리액트 강좌",
+      "author": "코딩앙마",
+      "views": "235"
+    },
+    {
+      "id": 6,
+      "img1": "https://yt3.googleusercontent.com/ytc/AIdro_m4E0XrMyETpLr4rqV45mYzr9rvfVqkQm-3cRRRMDk9jw=s160-c-k-c0x00ffffff-no-rj",
+      "img2": "https://img.youtube.com/vi/P0FY8k916e0/0.jpg",
+      "title": "자바스크립트 기초 강좌 #1 - 변수",
+      "author": "코딩앙마",
+      "views": "3415"
+    }
+  ]
+}
