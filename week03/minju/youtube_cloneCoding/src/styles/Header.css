@@ -1,0 +1,38 @@
+/* Header.css */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: black;
+}
+
+.search_voice {
+  height: 40px;
+  width: auto;
+}
+
+.header__search {
+  flex: 1;
+  margin: 0 20px 0 120px;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid #c9c8c8;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.header__icons {
+  margin-left: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.header__icon {
+  margin-left: 20px;
+  cursor: pointer;
+  height: 40px;
+  width: auto;
+}
