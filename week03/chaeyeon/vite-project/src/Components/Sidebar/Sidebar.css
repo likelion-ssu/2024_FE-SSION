@@ -1,0 +1,28 @@
+.sidebar{
+    width: 15rem;
+    position: sticky;
+    bottom: 0;
+}
+.sidebar-item img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1.5rem;
+}
+.sidebar-item{
+    align-items: center;
+    display: flex;
+    padding: 0.5rem 0rem;
+    margin: 0.5rem 0.7rem;
+    border-radius: 1rem;
+}
+.sidebar-item:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.divider {
+    width: 15rem;
+    height: 1px;
+    background-color:gray;
+    opacity: 0.5;
+    margin: 10px 0; 
+  }

@@ -1,0 +1,34 @@
+i,img{
+cursor: pointer;
+}
+*{box-sizing: border-box;}
+.app-navbar{
+    margin-bottom: 1rem;
+    width: 100%;
+    background-color:white;
+    padding: 0.5rem;
+}
+.app-sidebar{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 16rem;
+    margin-right: 1rem;
+    top: 4rem; 
+    height: calc(100% - 4rem); 
+}
+.app-sidebar:hover{
+    overflow-y: scroll;
+
+}
+.sidebar-main-wrapper{
+    display: flex;
+  
+}
+.app-navbar ,.app-sidebar{
+    position: fixed;
+}
+.main-content{
+    margin-left: 16rem;/* 사이드바 넓이 + 여백 */
+    padding-top: 5rem; /* 네비게이션 바 높이 만큼 내려줍니다 */
+    width: 100%;
+}
