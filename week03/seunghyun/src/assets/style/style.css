@@ -5,3 +5,4 @@
 /* section */
 @import 'section/layout.css';
 @import 'section/header.css';
+@import "section/search"; 

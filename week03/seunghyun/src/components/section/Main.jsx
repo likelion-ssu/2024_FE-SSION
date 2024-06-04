@@ -1,12 +1,12 @@
-import React from 'react'
-import '../../assets/style/style.css';
+import React from 'react';
+import Search from './Search';
 
 const Main = () => {
-    return (
-        <main id="main" role="main">
-            main  
-        </main>
-    )
-}
+  return (
+    <main id="main" role="main">
+      <Search />
+    </main>
+  );
+};
 
 export default Main;
