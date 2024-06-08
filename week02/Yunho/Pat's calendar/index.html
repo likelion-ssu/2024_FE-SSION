@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./calendar.js" defer></script>
+  <title>Pat's Calendar</title>
+</head>
+<body>
+  <div class="calendar_container">
+    <div class='calendar_header'>
+      <button onclick="goToPrevMonth()">&lt;</button>
+      <h2 class="present_year-month"></h2>
+      <button onclick='goToNextMonth()'>&gt;</button>
+    </div>
+    <div class="calendar_days">
+      <div class="day">월</div>
+      <div class="day">화</div>
+      <div class="day">수</div>
+      <div class="day">목</div>
+      <div class="day">금</div>
+      <div class="day" id="Saturday">토</div>
+      <div class="day" id="Sunday">일</div>
+    </div>
+    <div class="dates"></div>
+  </div>
+</body>
+</html>
