@@ -15,7 +15,7 @@ const DateComponent = () => {
     const month = String((date as Date).getMonth() + 1).padStart(2, "0");
     const day = String((date as Date).getDate()).padStart(2, "0");
     const formattedDate = `${year}-${month}-${day}`;
-    navigate(`/Note/${formattedDate}`);
+    navigate(`/Home/${formattedDate}`);
   };
 
   return (
