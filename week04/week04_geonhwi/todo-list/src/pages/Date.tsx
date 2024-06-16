@@ -12,7 +12,7 @@ const DateComponent = () => {
 
   return (
     <CalendarBox>
-      <StyleCalendar locale="en" onChange={onChangeToday} value={today} />
+      <StyleCalendar locale="ko" onChange={onChangeToday} value={today} />
     </CalendarBox>
   );
 };
@@ -25,23 +25,17 @@ export const CalendarBox = styled.div`
   justify-content: center;
   width: 100%;
   height: 100vh;
-`;
-
-export const StyleCalendar = styled(Calendar)`
-  width: 80%;
-  height: 100%;
-  border: none;
-  padding: 25rem;
 
   .react-calendar__navigation {
     display: flex;
-    height: 5rem;
+    height: 6rem;
     margin-bottom: 1em;
     font-size: 1rem;
   }
 
   .react-calendar__navigation button {
-    min-width: 2.4rem;
+    min-width: 3rem;
+    font-size: 3rem;
     background-color: none;
   }
 
@@ -57,15 +51,20 @@ export const StyleCalendar = styled(Calendar)`
   .react-calendar__month-view__weekdays {
     text-align: center;
     text-transform: uppercase;
-    font-size: 0.8em;
-    height: 2rem;
-    line-height: 2rem;
+    height: 6rem;
+    line-height: 3rem;
+    font-size: 5rem;
+  }
+
+  .react-calendar__tile {
+    padding: 2rem 1.5rem;
+    font-size: 3rem;
   }
 
   .react-calendar__year-view .react-calendar__tile,
   .react-calendar__decade-view .react-calendar__tile,
   .react-calendar__century-view .react-calendar__tile {
-    padding: 1em 0.5em;
+    padding: 2rem 1.5rem;
   }
 
   .react-calendar__tile--hasActive {
@@ -89,4 +88,14 @@ export const StyleCalendar = styled(Calendar)`
   .react-calendar__tile--active:enabled:focus {
     background-color: #6a6a6a;
   }
+`;
+
+export const StyleCalendar = styled(Calendar)`
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 20rem;
+  background-image: url("/src/assets/img/background.jpg");
+  background-size: cover;
+  background-position: center;
 `;
