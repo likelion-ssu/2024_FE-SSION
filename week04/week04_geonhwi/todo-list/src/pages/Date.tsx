@@ -1,13 +1,21 @@
 import { useState } from "react";
 import styled from "styled-components";
 import Calendar, { CalendarProps } from "react-calendar";
+import { useNavigate } from "react-router-dom";
 import "react-calendar/dist/Calendar.css";
 
 const DateComponent = () => {
   const [today, setToday] = useState<Date>(new Date());
+  const navigate = useNavigate();
 
   const onChangeToday: CalendarProps["onChange"] = (date) => {
     setToday(date as Date);
+    // 날짜를 로컬 타임존에 맞게 포맷팅
+    const year = (date as Date).getFullYear();
+    const month = String((date as Date).getMonth() + 1).padStart(2, "0");
+    const day = String((date as Date).getDate()).padStart(2, "0");
+    const formattedDate = `${year}-${month}-${day}`;
+    navigate(`/Note/${formattedDate}`);
   };
 
   return (
