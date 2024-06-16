@@ -28,7 +28,7 @@ export const CalendarBox = styled.div`
 
   .react-calendar__navigation {
     display: flex;
-    height: 6rem;
+    height: 5rem;
     margin-bottom: 1em;
     font-size: 1rem;
   }
